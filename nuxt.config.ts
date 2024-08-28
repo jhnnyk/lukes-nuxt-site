@@ -5,5 +5,6 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   content: {
     documentDriven: true,
-  }
+  },
+  css: ['~/assets/css/main.css']
 })
