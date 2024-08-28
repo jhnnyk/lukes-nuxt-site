@@ -13,6 +13,16 @@ h2 {
     text-decoration: none;
 }
 
+li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+li.topnav {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
 a {
     color: purple;
 }
