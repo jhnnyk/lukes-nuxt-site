@@ -3,6 +3,8 @@ title: "Index"
 description: "The home page of this website"
 ---
 
-# Hello World!
+# Luke Knotts Website
 
-hello this is text.
+Welcome to my website, where you can find various works from me, as well as a weekly game development log, where I document game development.
+
+Also check out my (unfinished) text-based adventure: <a class="inline-link" href="https://dontgooutside.lukeknotts.com">Don't Go Outside</a>

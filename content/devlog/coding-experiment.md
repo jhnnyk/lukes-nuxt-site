@@ -13,4 +13,4 @@ Wow, that was just written in HTML, but it <i>worked</i>!
 
 That's pretty cool.
 
-Also: Gnarly "<code>`<i>`</code>" tags!
+Thanks, gnarly "<code>`<i>`</code>" tags!

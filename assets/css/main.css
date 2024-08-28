@@ -1,6 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
     color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    background-color: rgb(255, 254, 240);
+}
+
+h2 {
+    color: black;
+    text-decoration: none;
 }
 
 a {
@@ -8,6 +18,21 @@ a {
 }
 a:hover {
     color: blue
+}
+
+.inline-link {
+    color: green;
+}
+.inline-link:hover {
+    color: rgb(207, 138, 12);
+}
+
+.signature {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 115%;
+    color: black;
+    text-align: right;
+    margin-right: 10%;
 }
 
 h1 {

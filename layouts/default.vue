@@ -3,8 +3,9 @@
     <ul>
       <li><NuxtLink to="/">Home</NuxtLink></li>
       <li><NuxtLink to="/about">About</NuxtLink></li>
-      <li><NuxtLink to="/devblog/devbloghome">Development Blog</NuxtLink></li>
+      <li><NuxtLink to="/devlog/devloghome">Development Log</NuxtLink></li>
     </ul>
+    <hr></hr>
   </nav>
   <main>
     <slot />
