@@ -13,24 +13,30 @@ h2 {
     text-decoration: none;
 }
 
-li {
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-li.topnav {
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-
 a {
+    text-decoration: none;
     color: purple;
 }
 a:hover {
-    color: blue
+    color: blue;
 }
 
+.glow:hover {
+    color: rgb(205, 36, 191);
+}
+/*the glow class was used so I could make the word "coffee" glow in devlog #3, partially as a reference to the home page text from Don't Go Outside.*/
+
+.bug {
+    transition: 8s;
+}
+.bug:hover {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+}
+/*This may be getting a tad carried away, but I was talking about a bug, and I thought it would be funny if the font changed when you hovered over the word bug. Also for devlog #3 */
+
 .inline-link {
+    text-decoration: underline;
     color: green;
 }
 .inline-link:hover {
@@ -47,4 +53,15 @@ a:hover {
 
 h1 {
     color: green;
+}
+
+li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+li.topnav {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
 }
