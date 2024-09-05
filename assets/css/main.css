@@ -35,6 +35,8 @@ a:hover {
 /*This may be getting a tad carried away, but I was talking about a bug, and I thought it would be funny if the font changed when you hovered over the word bug. Also for devlog #3 */
 
 .inline-link {
+    padding: 0%;
+    background-color: transparent;
     text-decoration: underline;
     color: green;
 }

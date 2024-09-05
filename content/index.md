@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "LukeKnotts.com"
 description: "The home page of this website"
 ---
 
