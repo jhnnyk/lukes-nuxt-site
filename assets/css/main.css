@@ -44,6 +44,14 @@ a.button-link {
     transition: 0.25s;
     border: solid;
 }
+a.button-link:visited {
+    color: rgb(116, 79, 10);
+    background-color: rgb(218, 161, 55);
+}
+.button-link:visited:hover {
+    color: darkgreen;
+    background-color: rgb(68, 179, 68);
+}
 a.button-link:hover {
     background-color: rgb(168, 168, 212);
 }
