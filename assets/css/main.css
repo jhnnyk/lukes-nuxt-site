@@ -40,17 +40,19 @@ a.button-link {
     padding-bottom: 1.5%;
     padding-left: 1.5%;
     padding-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     background-color: rgb(221, 203, 221);
     transition: 0.25s;
     border: solid;
 }
 a.button-link:visited {
     color: rgb(116, 79, 10);
-    background-color: rgb(218, 161, 55);
+    background-color: rgb(233, 187, 100);
 }
 .button-link:visited:hover {
     color: darkgreen;
-    background-color: rgb(68, 179, 68);
+    background-color: rgb(106, 185, 106);
 }
 a.button-link:hover {
     background-color: rgb(168, 168, 212);
@@ -92,4 +94,8 @@ a.button-link:hover {
     color: black;
     text-align: right;
     margin-right: 10%;
+}
+
+li.summary {
+    list-style: disc;
 }
