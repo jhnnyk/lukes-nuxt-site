@@ -11,4 +11,4 @@ description: "A page to explain this website"
 
 This website was created by John Knotts and Luke Knotts.
 
-<img src="images/notebookdice.jpeg" alt="A dice sitting on a notebook. But it's a weird dice, because it's got another dice inside of it, and is transparent itself so you can see the dice inside of it. I hope long image alt text isn't a pain screen readers..." width="100" height="100">
+![A transparent dice with another solid dice inside of it, all on top of an open notebook](/images/notebookdice.jpeg){width="100"}

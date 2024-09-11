@@ -9,6 +9,11 @@ body {
     transition: 0.5s;
 }
 
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
     color: green;
 }
