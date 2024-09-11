@@ -6,6 +6,7 @@ body {
     margin-right: 20%;
     margin-bottom: 10%;
     background-color: rgb(255, 254, 240);
+    transition: 0.5s;
 }
 
 h1 {
@@ -20,8 +21,31 @@ a:hover {
 }
 
 li {
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-top: 4.5%;
+    margin-bottom: 4.5%;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        transition: 1s;
+    }
+
+    a.button-link {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: 0.5s;
+    }
+
+    li {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        transition: 0.5s;     
+    }
 }
 
 li.topnav {
@@ -33,22 +57,24 @@ ul {
     list-style-type: none;
 }
 
+@media only screen and (min-width: 1000px) {
+    a.button-link {
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+    }
+}
 a.button-link {
     text-decoration: none;
     text-align: center;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
     padding-left: 1.5%;
     padding-right: 1.5%;
-    margin-top: 1%;
-    margin-bottom: 1%;
     background-color: rgb(221, 203, 221);
     transition: 0.25s;
     border: solid;
 }
 a.button-link:visited {
     color: rgb(116, 79, 10);
-    background-color: rgb(233, 187, 100);
+    background-color: rgb(236, 192, 111);
 }
 .button-link:visited:hover {
     color: darkgreen;
