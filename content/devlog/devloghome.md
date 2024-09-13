@@ -8,6 +8,7 @@ description: 'A directory page for the "Development Blog"'
 Here you will find my development logs, listed with the newest posts up top. I have labeled them with numbers and dates.
 
 <ul>
+<li><a class="button-link" href="/devlog/sep-12-2024">Entry 8 <span class="date">Sep/12/2024</span></a></li>
 <li><a class="button-link" href="/devlog/sep-9-2024">Entry 7 <span class="date">Sep/9/2024</span></a></li>
 <li><a class="button-link" href="/devlog/sep-6-2024">Entry 6 <span class="date">Sep/6/2024</span></a></li>
 <li><a class="button-link" href="/devlog/sep-5-2024">Entry 5 <span class="date">Sep/5/2024</span></a></li>
