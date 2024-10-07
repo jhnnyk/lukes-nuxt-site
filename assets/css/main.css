@@ -12,6 +12,8 @@ body {
 img {
     margin-left: auto;
     margin-right: auto;
+    width: 80vw;
+    display: block;
 }
 
 h1 {
@@ -68,6 +70,7 @@ ul {
         padding-bottom: 1.5%;
     }
 }
+
 a.button-link {
     text-decoration: none;
     text-align: center;
@@ -76,6 +79,10 @@ a.button-link {
     background-color: rgb(221, 203, 221);
     transition: 0.25s;
     border: solid;
+    display: flex;
+    flex-basis: 100%;
+    width: 40%;
+    font-size: 3vw;
 }
 a.button-link:visited {
     color: rgb(116, 79, 10);
