@@ -12,7 +12,7 @@ body {
 img {
     margin-left: auto;
     margin-right: auto;
-    width: 80vw;
+    width: 60vw;
     display: block;
 }
 
@@ -53,6 +53,10 @@ li {
         margin-bottom: 30px;
         transition: 0.5s;     
     }
+
+    img {
+        width: 80vw;
+    }
 }
 
 li.topnav {
@@ -80,9 +84,8 @@ a.button-link {
     transition: 0.25s;
     border: solid;
     display: flex;
-    flex-basis: 100%;
     width: 40%;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 a.button-link:visited {
     color: rgb(116, 79, 10);
