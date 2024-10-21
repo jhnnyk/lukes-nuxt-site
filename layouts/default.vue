@@ -12,7 +12,7 @@
     <slot />
     <br></br>
     <hr></hr>
-    <img src="/images/email.png"/>
+    <img style="width: 50%;" src="/images/email.png"/>
     <hr></hr>
   </main>
 </template>
