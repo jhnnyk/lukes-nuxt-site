@@ -12,6 +12,7 @@ Entries from October 6th and later include MATH SEGMENTS, so check the end of th
 <a href="mailto:someone@example.com">Send email</a>
 
 <ul>
+<li><a class="button-link" href="/devlog/oct-20-2024">Entry 13 <span class="date">Oct/20/2024</span></a></li>
 <li><a class="button-link" href="/devlog/oct-12-2024">Entry 12 <span class="date">Oct/12/2024</span></a></li>
 <li><a class="button-link" href="/devlog/oct-6-2024">Entry 11 <span class="date">Oct/6/2024</span></a></li>
 <li><a class="button-link" href="/devlog/oct-3-2024">Entry 10 <span class="date">Oct/3/2024</span></a></li>
