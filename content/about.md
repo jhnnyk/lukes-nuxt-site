@@ -12,7 +12,3 @@ description: "A page to explain this website"
 <img src="/images/notebookdice.jpeg"/>
 
 This website was created by John Knotts and Luke Knotts.
-
-<br></br>
-
----

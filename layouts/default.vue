@@ -10,5 +10,9 @@
   </nav>
   <main>
     <slot />
+    <br></br>
+    <hr></hr>
+    <img src="/images/email.png"/>
+    <hr></hr>
   </main>
 </template>
