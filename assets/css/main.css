@@ -107,6 +107,13 @@ a.button-link:hover {
     margin-left: 1vw;
 }
 
+.image-desc {
+    font-size: 80%;
+    color: rgb(82, 112, 90);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .signature {
     font-family:'Times New Roman', Times, serif;
     font-size: 115%;
