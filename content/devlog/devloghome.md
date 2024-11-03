@@ -10,6 +10,7 @@ Here you will find my development logs, listed with the newest posts up top. I h
 Entries from October 6th and later include MATH SEGMENTS, so check the end of those blog posts if you need your fill of numerical action!
 
 <ul>
+<li><a class="button-link" href="/devlog/nov-2-2024">Entry 15 <span class="date">Nov/2/2024</span></a></li>
 <li><a class="button-link" href="/devlog/oct-27-2024">Entry 14 <span class="date">Oct/27/2024</span></a></li>
 <li><a class="button-link" href="/devlog/oct-20-2024">Entry 13 <span class="date">Oct/20/2024</span></a></li>
 <li><a class="button-link" href="/devlog/oct-12-2024">Entry 12 <span class="date">Oct/12/2024</span></a></li>
