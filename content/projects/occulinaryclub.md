@@ -9,7 +9,7 @@ A project produced during a two week game jam (initially one week but it got ext
 
 We ended up creating a crypit ARG with a weird spooky mystery. Unfortunately, our project turned out to be way too crypitic for anybody to make sense of. I should probably edit it with some hints so it's at least playable...
 
-Well, if you enjoy strange crypitic games with puzzles that are hard in all of the least fun ways, perhaps you'll get a kick our game.
+Well, if you enjoy strange crypitic games with puzzles that are hard in all of the least fun ways, perhaps you'll get a kick out of our game.
 
 Check out the link to the itch.io page!
 
