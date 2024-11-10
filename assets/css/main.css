@@ -92,7 +92,7 @@ a.button-link:hover {
 }
 /*This may be getting a tad carried away, but I was talking about a bug, and I thought it would be funny if the font changed when you hovered over the word bug. Also for devlog #3 */
 
-span.upsidedown {
+.upsidedown {
     display: inline-block;
     transform: scale(-1, -1);
     /* additional transforms are for different browers, I think. I dunno */
@@ -101,6 +101,17 @@ span.upsidedown {
     -webkit-transform:rotate(-1, -1);
     -o-transform:rotate(-1, -1);
 }
+
+.vertical-flip {
+    display: inline-block;
+    transform: scale(1, -1);
+    /* additional transforms are for different browers, I think. I dunno */
+    -ms-transform:rotate(1, -1);
+    -moz-transform:rotate(1, -1);
+    -webkit-transform:rotate(1, -1);
+    -o-transform:rotate(1, -1);
+}
+
 /* Above is a special class that makes things upside-down. I used this in devlog #16 to make the word "gravity" appear upside down, cuz we want our game (ERASE) to let you walk upside down. */
 
 .inline-link {
