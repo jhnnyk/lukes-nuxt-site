@@ -43,11 +43,18 @@ li {
     img {
         width: 80vw;
     }
+
+    .topnav {
+        display: block;
+    }
 }
 
 li.topnav {
     margin-top: 0%;
     margin-bottom: 0%;
+    display: inline-block;
+    margin-left: 10%;
+    text-align: center;
 }
 
 ul {
