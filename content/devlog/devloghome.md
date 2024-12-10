@@ -11,7 +11,7 @@ Entries from October 6th and later include MATH SEGMENTS, so check the end of th
 
 <ul>
 <li><a class="button-link" href="/devlog/dec-8-2024">Entry 19 <span class="date">Dec/8/2024</span></a></li>
-<li><a class="button-link" href="/devlog/dec-2-2024">Entry 18 <span class="date">Dec/2/2024 <br> (for the week of Nov 18)</span></a></li>
+<li><a class="button-link" href="/devlog/dec-2-2024">Entry 18 <span class="date">Dec/2/2024 <br> (for the week of Nov/18)</span></a></li>
 <li><a class="button-link" href="/devlog/nov-15-2024">Entry 17 <span class="date">Nov/15/2024</span></a></li>
 <li><a class="button-link" href="/devlog/nov-8-2024">Entry 16 <span class="date">Nov/8/2024</span></a></li>
 <li><a class="button-link" href="/devlog/nov-2-2024">Entry 15 <span class="date">Nov/2/2024</span></a></li>
