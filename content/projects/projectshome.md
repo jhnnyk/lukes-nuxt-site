@@ -7,7 +7,15 @@ description: "A list of some of Luke's projects"
 
 Here are links to some other projects I have worked on!
 
+<h1>Games</h1>
+
 <ul>
 <li><a class="button-link" href="/projects/dontgooutside">Don't Go Outside</a></li>
 <li><a class="button-link" href="/projects/occulinaryclub">The ocCulinary Club</a></li>
+</ul>
+
+<h1>Incomplete or Abandoned</h1>
+
+<ul>
+<li><a class="button-link" href="/projects/worldthumbboxing">World Thumb Boxing</a></li>
 </ul>

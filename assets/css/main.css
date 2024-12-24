@@ -16,6 +16,7 @@ img.gallery {
     margin-bottom: auto;
     width: 20vw;
     display: inline-block;
+    text-align: center;
 }
 
 img {
