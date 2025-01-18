@@ -164,3 +164,7 @@ a.button-link:hover {
 li.summary {
     list-style: disc;
 }
+
+.underline {
+    text-decoration: underline;
+}
