@@ -10,6 +10,7 @@ Here are links to some other projects I have worked on!
 <h1>Games</h1>
 
 <ul>
+<li><a class="button-link" href="/projects/thehunt">The Hunt</a></li>
 <li><a class="button-link" href="/projects/dontgooutside">Don't Go Outside</a></li>
 <li><a class="button-link" href="/projects/occulinaryclub">The ocCulinary Club</a></li>
 </ul>
