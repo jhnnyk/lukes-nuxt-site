@@ -41,6 +41,7 @@ img.gallery {
     width: 20vw;
     display: inline-block;
     text-align: center;
+    border-style: none;
 }
 
 img {
