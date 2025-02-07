@@ -70,6 +70,17 @@ li {
     margin-bottom: 4%;
 }
 
+a.button-link {
+    text-decoration: none;
+    padding: 2.5%;
+    background-color: rgb(221, 203, 221);
+    transition: 0.25s;
+    border: solid;
+    font-size: 100%;
+    display: flex;
+    width: 40%;
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         margin-left: 10%;
@@ -103,16 +114,6 @@ ul {
     list-style-type: none;
 }
 
-a.button-link {
-    text-decoration: none;
-    padding: 2.5%;
-    background-color: rgb(221, 203, 221);
-    transition: 0.25s;
-    border: solid;
-    font-size: 100%;
-    display: flex;
-    width: 40%;
-}
 a.button-link:visited {
     color: rgb(116, 79, 10);
     background-color: rgb(236, 192, 111);
