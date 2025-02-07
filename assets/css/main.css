@@ -85,6 +85,10 @@ li {
     .topnav {
         display: block;
     }
+
+    a.button-link {
+        width: 80%;
+    }
 }
 
 li.topnav {
@@ -107,7 +111,7 @@ a.button-link {
     border: solid;
     font-size: 100%;
     display: flex;
-    width: 60%;
+    width: 40%;
 }
 a.button-link:visited {
     color: rgb(116, 79, 10);
