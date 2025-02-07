@@ -3,7 +3,7 @@ title: "About"
 description: "A page to explain this website"
 ---
 
-# About
+## About
 
 # Hello, I'm Luke Knotts
 

@@ -1,18 +1,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
-    color: black;
+    color: rgb(155, 155, 155);
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10%;
-    background-color: rgb(59, 76, 64);
+    background-color: rgb(53, 76, 60);
     transition: 0.5s;
 }
 
 main {
     padding: 20px;
     box-shadow: 2px 2px 4px;
-    background-color: rgb(48, 53, 49);
+    background-color: rgb(38, 41, 38);
 }
 
 nav {
@@ -24,7 +24,7 @@ nav {
 
 .contact-box {
     padding: 10px;
-    background-color: rgb(84, 66, 99);
+    background-color: rgb(108, 93, 120);
 }
 
 .contact-img {
@@ -55,14 +55,18 @@ img {
 }
 
 h1 {
-    color: green;
+    color: rgb(34, 102, 34);
+}
+
+h2 {
+    color: red;
 }
 
 a {
-    color: rgb(66, 16, 66);
+    color: rgb(123, 63, 123);
 }
 a:hover {
-    color: rgb(25, 25, 80);
+    color: rgb(65, 65, 146);
 }
 
 li {
@@ -73,7 +77,7 @@ li {
 a.button-link {
     text-decoration: none;
     padding: 2.5%;
-    background-color: rgb(221, 203, 221);
+    background-color: rgb(91, 66, 91);
     transition: 0.25s;
     border: solid;
     font-size: 100%;
@@ -111,17 +115,25 @@ li.topnav {
     text-align: center;
 }
 
+.topnav-link {
+    color: rgb(78, 20, 85);
+}
+
+.topnav-link:hover {
+    color: rgb(28, 48, 99);
+}
+
 ul {
     list-style-type: none;
 }
 
 a.button-link:visited {
-    color: rgb(116, 79, 10);
-    background-color: rgb(236, 192, 111);
+    color: rgb(62, 47, 19);
+    background-color: rgb(130, 101, 48);
 }
 .button-link:visited:hover {
-    color: darkgreen;
-    background-color: rgb(106, 185, 106);
+    color: rgb(13, 49, 13);
+    background-color: rgb(49, 92, 49);
 }
 a.button-link:hover {
     background-color: rgb(168, 168, 212);
@@ -169,10 +181,10 @@ a.button-link:hover {
     padding: 0%;
     background-color: transparent;
     text-decoration: underline;
-    color: green;
+    color: rgb(18, 93, 18);
 }
 .inline-link:hover {
-    color: rgb(207, 138, 12);
+    color: rgb(127, 89, 19);
 }
 
 .date {
@@ -190,7 +202,7 @@ a.button-link:hover {
 .signature {
     font-family:'Times New Roman', Times, serif;
     font-size: 115%;
-    color: black;
+    color: rgb(183, 180, 180);
     text-align: right;
     margin-right: 10%;
 }
