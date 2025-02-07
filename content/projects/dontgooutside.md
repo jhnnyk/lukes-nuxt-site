@@ -1,9 +1,9 @@
 ---
-title: "Dont Go Outside project page"
-description: "A page about Dont Go Outside"
+title: "Don't Go Outside project page"
+description: "A page about Don't Go Outside"
 ---
 
-# Dont Go Outside
+# Don't Go Outside
 
 Don't Go Outside is a text based story inspired by <i>Choose Your Own Adventure</i> books. It was worked on by myself, John Knotts, Aris Fryer, Mattison Brown, with some contributions from Nathan Branch and Elkan Lee.
 

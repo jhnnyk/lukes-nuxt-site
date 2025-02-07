@@ -12,7 +12,10 @@
     <slot />
     <br></br>
     <hr></hr>
-    <img style="width: 50%;" src="/images/email.png"/>
-    <hr></hr>
+    <div class="contact-box">
+      <hr></hr>
+      <img class="contact-img" src="/images/email.png"/>
+      <hr></hr>
+    </div>
   </main>
 </template>
