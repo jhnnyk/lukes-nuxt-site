@@ -107,7 +107,7 @@ a.button-link {
     border: solid;
     font-size: 100%;
     display: flex;
-    width: 40%;
+    width: 60%;
 }
 a.button-link:visited {
     color: rgb(116, 79, 10);
