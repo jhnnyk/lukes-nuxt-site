@@ -1,5 +1,5 @@
 ---
-title: "The Hunt (for "Run!" Creative Jam 2025)"
+title: "The Hunt (for 'Run!' Creative Jam 2025)"
 description: "A page about our game jam project"
 ---
 
