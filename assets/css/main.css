@@ -1,12 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
-    color: rgb(155, 155, 155);
+    color: rgb(141, 141, 141);
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10%;
     background-color: rgb(53, 76, 60);
     transition: 0.5s;
+}
+
+p {
+    line-height: 25px;
 }
 
 main {
