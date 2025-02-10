@@ -121,10 +121,12 @@ li.topnav {
 
 .topnav-link {
     color: rgb(78, 20, 85);
+    text-decoration: none;
 }
 
 .topnav-link:hover {
     color: rgb(28, 48, 99);
+    text-decoration: underline;
 }
 
 ul {

@@ -1,10 +1,10 @@
 <template>
   <nav>
     <ul>
-      <li class="topnav"><NuxtLink to="/"><span class="topnav-link">Home</span></NuxtLink></li>
-      <li class="topnav"><NuxtLink to="/about"><span class="topnav-link">About</span></NuxtLink></li>
-      <li class="topnav"><NuxtLink to="/devlog/devloghome"><span class="topnav-link">Dev Log</span></NuxtLink></li>
-      <li class="topnav"><NuxtLink to="/projects/projectshome"><span class="topnav-link">Projects</span></NuxtLink></li>
+      <li class="topnav"><a class="topnav-link" href="/">Home</a></li>
+      <li class="topnav"><a class="topnav-link" href="/about">About</a></li>
+      <li class="topnav"><a class="topnav-link" href="/devlog/devloghome">Dev Log</a></li>
+      <li class="topnav"><a class="topnav-link" href="/projects/projectshome">Projects</a></li>
     </ul>
     <hr>
   </nav>
