@@ -224,6 +224,8 @@ li.summary {
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
   .flex-container > div {
