@@ -82,6 +82,7 @@ a.button-link {
     text-decoration: none;
     padding: 2.5%;
     background-color: rgb(91, 66, 91);
+    color: rgb(54, 35, 70);
     transition: 0.25s;
     border: solid;
     font-size: 100%;
