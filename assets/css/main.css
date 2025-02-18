@@ -32,7 +32,7 @@ nav {
 }
 
 .contact-img {
-    width: 70%;
+    width: 50%;
     border-style: none;
 }
 
@@ -107,12 +107,19 @@ a.button-link {
         width: 80%;
     }
 
+    .contact-img {
+        width: 80%;
+    }
+
 }
 
 .topnav-link {
     color: rgb(78, 20, 85);
     text-decoration: none;
     font-size: 2vw;
+    background-color: rgb(83, 79, 85);
+    padding: 1vw;
+    border-radius: 5vw;
 }
 
 .topnav-link:hover {
@@ -242,3 +249,21 @@ li.summary {
     margin-right: auto;
     text-align: center;
   }
+
+.homelink {
+    color: green;
+    background-color: rgb(133, 124, 124);
+    display: flex;
+    width: 60%;
+    margin-left: 2vw;
+    padding-left: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    box-shadow: 0.25vw 0.25vw 0.5vw #363636;
+    transition: 0.3s;
+}
+.homelink:hover {
+    background-color: rgb(133, 125, 120);
+    box-shadow: 0.25vw 0.25vw 0.5vw #000000;
+    transition: 0.3s;
+}
