@@ -83,11 +83,12 @@ a.button-link {
     padding: 2.5%;
     background-color: rgb(91, 66, 91);
     color: rgb(54, 35, 70);
-    transition: 0.25s;
+    transition: 0.3s;
     border: solid;
     font-size: 100%;
     display: flex;
     width: 40%;
+    box-shadow: 0.25vw 0.25vw 0.5vw #242424;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -157,6 +158,8 @@ a.button-link:visited {
 }
 a.button-link:hover {
     background-color: rgb(168, 168, 212);
+    box-shadow: 0.25vw 0.25vw 0.5vw #181818;
+    transition: 0.3s;
 }
 
 /*This section is for special classes:*/
