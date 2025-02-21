@@ -3,7 +3,7 @@ title: "About"
 description: "A page to explain this website"
 ---
 
-## About
+<h2>About</h2>
 
 # Hello, I'm Luke Knotts
 

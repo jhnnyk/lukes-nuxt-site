@@ -41,4 +41,7 @@ Entries from October 6th and later include MATH SEGMENTS, so check the end of th
 
 Test page(s):
 
-<ul><li><a href="/devlog/coding-experiment">Me Messing with Code</a></li></ul>
+<ul>
+  <li><a href="/devlog/coding-experiment">Me Messing with Code</a></li>
+  <li><a href="/tester">Vue playground</a></li>
+</ul>
