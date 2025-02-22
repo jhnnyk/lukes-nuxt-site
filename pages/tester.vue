@@ -6,7 +6,7 @@
       <p>JavaScript can change HTML attribute values.</p>
       <p id="demo" style="color: red">Hm</p>
       <p id="demo2" style="color: red">Hm?</p>
-      <button onclick="testFunction(); testFunction2()">Test</button>
+      <button onclick="testFunction(); testFunction2();">Test</button>
       <Footer />
     </main>
   </div>
