@@ -9,5 +9,12 @@
       <button onclick="testFunction(); testFunction2();">Test</button>
       <Footer />
     </main>
+    <NuxtLayout />
   </div>
 </template>
+
+<script setup>
+useHead({
+  title: "A Page to Test Code Stuffs",
+});
+</script>
