@@ -10,6 +10,11 @@
       <Footer />
     </main>
     <NuxtLayout />
+    <Script>
+      function testFunction2() { document.getElementById("demo2").innerHTML =
+      "Paragraph changed. Mmm-Hmm"; } function testFunction() {
+      document.getElementById("demo").innerHTML = "Paragraph changed!??"; }
+    </Script>
   </div>
 </template>
 
