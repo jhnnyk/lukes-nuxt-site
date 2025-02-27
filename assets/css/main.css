@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 120%;
+    font-size: 2vw;
     color: rgb(141, 141, 141);
     margin-left: 20%;
     margin-right: 20%;
@@ -10,7 +10,8 @@ body {
 }
 
 p {
-    line-height: 25px;
+    line-height: 2.3vw;
+    transition: 0.5s;
 }
 
 main {
@@ -91,12 +92,44 @@ a.buttonlink {
     box-shadow: 0.25vw 0.25vw 0.5vw #242424;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .flex-container > div.link {
+    width: 50%;
+  }
+
+  .invertbutton {
+    margin: 0px;
+    height: 100%;
+    font-size: 2vw;
+    line-height: 90%;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 4px;
+    background-color: rgb(180, 171, 185);
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 10%;
         transition: 1s;
+        font-size: 4vw;
+    }
+
+    body > .inverbutton {
+        font-size: 300px;
+    }
+
+
+    p {
+        line-height: 4.9vw;
     }
 
     img {
@@ -110,6 +143,15 @@ a.buttonlink {
 
     .contact-img {
         width: 80%;
+    }
+
+    .flex-container {
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+
+    .invertbutton {
+        font-size: 3vw;
     }
 
 }
@@ -237,21 +279,6 @@ li.summary {
 .underline {
     text-decoration: underline;
 }
-
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  
-  .flex-container > div {
-    width: 100%;
-    margin: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
 
 .homelink {
     color: green;
