@@ -63,7 +63,7 @@ h1 {
 }
 
 h2 {
-    color: red;
+    color: rgb(34, 102, 34);
 }
 
 a {
@@ -78,7 +78,7 @@ li {
     margin-bottom: 4%;
 }
 
-a.button-link {
+a.buttonlink {
     text-decoration: none;
     padding: 2.5%;
     background-color: rgb(91, 66, 91);
@@ -103,7 +103,7 @@ a.button-link {
         width: 70vw;
     }
 
-    a.button-link {
+    a.buttonlink {
         padding-top: 5%;
         width: 80%;
     }
@@ -148,15 +148,15 @@ ul {
     list-style-type: none;
 }
 
-a.button-link:visited {
+a.buttonlink:visited {
     color: rgb(62, 47, 19);
     background-color: rgb(130, 101, 48);
 }
-.button-link:visited:hover {
+.buttonlink:visited:hover {
     color: rgb(13, 49, 13);
     background-color: rgb(49, 92, 49);
 }
-a.button-link:hover {
+a.buttonlink:hover {
     background-color: rgb(168, 168, 212);
     box-shadow: 0.25vw 0.25vw 0.5vw #181818;
     transition: 0.3s;

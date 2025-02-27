@@ -1,22 +1,20 @@
 <template>
   <div>
-    <Header />
-    <main>
+    <NuxtLayout>
       <h1>What Can JavaScript Do?</h1>
       <p>JavaScript can change HTML attribute values.</p>
       <p id="demo" style="color: red">Hm</p>
       <p id="demo2" style="color: red">Hm?</p>
-      <button onclick="testFunction(); testFunction2();">Test</button>
-      <Footer />
-    </main>
+      <button onclick="testFunction.js">Test</button>
+    </NuxtLayout>
     <NuxtLayout />
-    <Script>
-      function testFunction2() { document.getElementById("demo2").innerHTML =
-      "Paragraph changed. Mmm-Hmm"; } function testFunction() {
-      document.getElementById("demo").innerHTML = "Paragraph changed!??"; }
-    </Script>
+    <NuxtLayout />
+    <NuxtLayout />
+    <NuxtLayout />
   </div>
 </template>
+
+<testFunction />
 
 <script setup>
 useHead({

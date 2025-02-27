@@ -8,7 +8,7 @@
         <a class="topnav-link" href="/about">About</a>
       </div>
       <div>
-        <a class="topnav-link" href="/devlog/devloghome">Dev Log</a>
+        <a class="topnav-link" href="/devloghome">Dev Log</a>
       </div>
       <div>
         <a class="topnav-link" href="/projects/projectshome">Projects</a>
