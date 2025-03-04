@@ -6,7 +6,7 @@ body {
     margin-right: 20%;
     margin-bottom: 10%;
     background-color: rgb(53, 76, 60);
-    transition: 0.5s;
+    transition: 2s;
 }
 
 p {
@@ -114,7 +114,7 @@ a.buttonlink {
     background-color: rgb(180, 171, 185);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
     body {
         margin-left: 10%;
         margin-right: 10%;
