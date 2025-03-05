@@ -15,20 +15,20 @@ p {
 }
 
 main {
-    padding: 20px;
+    padding: 5%;
     box-shadow: 2px 2px 4px;
     background-color: rgb(38, 41, 38);
 }
 
 nav {
-    margin-top: 30px;
-    padding: 10px;
+    margin-top: 1vw;
+    padding: 1vw;
     box-shadow: 2px 2px 4px;
     background-color: rgb(84, 81, 86);
 }
 
 .contact-box {
-    padding: 10px;
+    padding: 1vw;
     background-color: rgb(108, 93, 120);
 }
 
@@ -56,7 +56,7 @@ img {
     margin-right: auto;
     border-style: solid;
     border-color: rgb(32, 32, 32);
-    border-radius: 5px;
+    border-radius: 1vw;
 }
 
 h1 {
@@ -105,12 +105,13 @@ a.buttonlink {
 
   .invertbutton {
     margin: 0px;
+    padding: 0.5vw;
     height: 100%;
     font-size: 2vw;
     line-height: 90%;
     text-align: center;
-    border-radius: 10px;
-    border-width: 4px;
+    border-radius: 0.5vw;
+    border-width: 10%;
     background-color: rgb(180, 171, 185);
 }
 
@@ -122,11 +123,6 @@ a.buttonlink {
         transition: 1s;
         font-size: 4vw;
     }
-
-    body > .inverbutton {
-        font-size: 300px;
-    }
-
 
     p {
         line-height: 4.9vw;
@@ -159,7 +155,7 @@ a.buttonlink {
 .topnav-link {
     color: rgb(78, 20, 85);
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 2.2vw;
     background-color: rgb(83, 79, 85);
     padding: 1vw;
     border-radius: 5vw;
@@ -168,22 +164,6 @@ a.buttonlink {
 .topnav-link:hover {
     color: rgb(28, 48, 99);
     text-decoration: underline;
-}
-
-@media only screen and (max-width: 890px) {
-
-    .topnav-link {
-        font-size: 3.5vw;
-    }
-
-}
-
-@media only screen and (min-width: 1200px) {
-
-    .topnav-link {
-        font-size: 1.5vw;
-    }
-
 }
 
 ul {
@@ -296,4 +276,30 @@ li.summary {
     background-color: rgb(133, 125, 120);
     box-shadow: 0.25vw 0.25vw 0.5vw #000000;
     transition: 0.3s;
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+
+    img {
+        width: 480px;
+    }
+
+    .topnav-link {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .invertbutton {
+        font-size: 15px;
+    }
+
+    p {
+        line-height: 22px;
+    }
 }

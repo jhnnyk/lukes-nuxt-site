@@ -117,8 +117,8 @@ useHead({
 
 <template>
   <div>
+    <!-- I forget to use my convienet <NuxtLayout>'s! I get warnings when I dont... -->
     <NuxtLayout>
-      <!-- I forget to use my convienet <NuxtLayout>'s! I get warnings when I dont... -->
       <h1>Game Development Blog</h1>
       <p>
         Here you will find my development logs, listed with the newest posts up

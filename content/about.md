@@ -11,6 +11,6 @@ description: "A page to explain this website"
 
 Perhaps I should mention that there have been some other weirdos with my name floating around. I have no ties to any of the other ones named Luke Knotts. Not to the one who plays soccer, nor any of the ones who have passed away.
 
-<img src="/images/notebookdice.jpeg"/>
+<img src="/images/notebookdice.png"/>
 
 This website was created by John Knotts and Luke Knotts.
