@@ -1,13 +1,48 @@
 #newlook {
-    background-color: red;
+    background-color: rgb(46, 46, 46);
+    margin: 0px;
+    padding: 0px;
+}
+
+#newlook div {
+    margin: 0px;
+    padding: 0px;
 }
 
 #newlook p {
     font-size: 20px;
     line-height: 100%;
-    color: blue;
+    color: rgb(195, 195, 219);
+    padding: 1vw;
+    margin: 0px;
 }
 
-#newlook body {
-    background-color: orange;
+#newlook main {
+    box-shadow: none;
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.unlink {
+    color: rgb(195, 195, 219);
+    text-decoration: none;
+}
+
+.thumbnail {
+    display: inline-block;
+    border-radius: 1vw;
+    background-color: grey;
+}
+
+.thumbnail-image {
+    width: 25vw;
+    display: inline;
+    margin: 1vw;
+    border-width: 0.3vw;
+}
+
+.thumbnail p {
+    color: red;
 }
