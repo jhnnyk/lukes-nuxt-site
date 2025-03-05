@@ -8,10 +8,6 @@ useHead({
 <template>
   <div>
     <NuxtLayout>
-      <p class="image-desc upsidedown" style="margin: 0; font-size: 70%">
-        Hello reader! Without a button, refresh the page to get back
-        right-side-up!
-      </p>
       <h1>
         Log <span class="date">#</span>29: <span class="date">Feb/27/2025</span>
       </h1>
@@ -150,6 +146,12 @@ useHead({
       </p>
       <p>Thank you for reading this post! Have a good one.</p>
       <p class="signature">-Luke Knotts</p>
+      <div id="upmessage" style="display: none">
+        <p class="upsidedown" style="color: green">
+          Hello reader! If there's no arrow button to reorient the screen,
+          refresh the page to get back right-side-up!
+        </p>
+      </div>
     </NuxtLayout>
   </div>
 </template>
