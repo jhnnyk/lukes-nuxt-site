@@ -6,11 +6,11 @@ body {
     margin-right: 20%;
     margin-bottom: 10%;
     background-color: rgb(53, 76, 60);
-    transition: 2s;
+    transition: 1s;
 }
 
 p {
-    line-height: 2.3vw;
+    line-height: 2.4vw;
     transition: 0.5s;
 }
 
@@ -61,6 +61,7 @@ img {
 
 h1 {
     color: rgb(34, 102, 34);
+    margin: 0px;
 }
 
 h2 {

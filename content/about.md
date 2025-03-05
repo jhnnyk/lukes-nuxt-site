@@ -3,13 +3,11 @@ title: "About"
 description: "A page to explain this website"
 ---
 
-<h2>About</h2>
+<h1>About Luke Knotts</h1>
 
-# Hello, I'm Luke Knotts
+Studying game design, Knotts is a high school student with interests in storytelling and music theory. This website is home to their video game <a class="inline-link" href="/devloghome">development blog</a>, as well as some creative projects (including a few <a class="inline-link" href="/projects/projectshome">games</a>!).
 
-...and this is my website, dedicated to various endeavors of mine. It was started as a place to put my <a class="inline-link" href="/devloghome">game development blog</a>, as well as my (unfinished) text-based game, <a class="inline-link" href="projects/dontgooutside">Don't Go Outside</a>. I am currently studying game development, focusing on design.
-
-Perhaps I should mention that there have been some other weirdos with my name floating around. I have no ties to any of the other ones named Luke Knotts. Not to the one who plays soccer, nor any of the ones who have passed away.
+Currently doing design work and managing a team of artists and coders to create a game in Unreal Engine 5.
 
 <img src="/images/notebookdice.png"/>
 

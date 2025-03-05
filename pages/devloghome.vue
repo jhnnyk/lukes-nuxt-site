@@ -121,15 +121,15 @@ useHead({
     <NuxtLayout>
       <h1>Game Development Blog</h1>
       <p>
-        Here you will find my development logs, listed with the newest posts up
-        top. I have labeled them with numbers and dates.
+        A weekly blog documenting my work as a video game designer and project
+        manager. Currently working with a team of artists and programmers to
+        create a first-person puzzle/exploration game in Unreal Engine 5.
       </p>
 
       <p>
-        Entries from October 6th and later include MATH SEGMENTS, so check the
-        end of those blog posts if you need your fill of numerical action!
+        Entries from October 6th on include dedicated MATH SEGMENTS, where I
+        take time to think about the math I use as I work on games.
       </p>
-      <br />
       <hr />
       <br />
       <!-- We use .slice().reverse() to order our blog posts newest first (as opposed to the order I add them in. Reversing is so I dont need to reorder every time I add a new post). -->
