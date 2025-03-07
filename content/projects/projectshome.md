@@ -5,7 +5,7 @@ description: "A list of some of Luke's projects"
 
 # Projects
 
-The place to find various projects I have worked on. Right now, everything you'll find here was created in collaboration with artists, programmers, designers, and other people who aren't myself.
+The place to find various projects I have worked on. Right now, everything you'll find here was created in collaboration with others, some artists, some programmers, some designers. I have not made a single one of these projects all by myself.
 
 I hope to fill this page with more projects later, though out of everything I've worked on, my favorite is <i>The Hunt</i> (2025), which is available to play on mac and windows.
 
