@@ -10,7 +10,7 @@ body {
 }
 
 p {
-    line-height: 2.4vw;
+    line-height: 3vw;
     transition: 0.5s;
 }
 
@@ -128,7 +128,7 @@ a.buttonlink {
     }
 
     p {
-        line-height: 4.9vw;
+        line-height: 6.5vw;
     }
 
     img {
@@ -303,6 +303,6 @@ li.summary {
     }
 
     p {
-        line-height: 22px;
+        line-height: 32px;
     }
 }
