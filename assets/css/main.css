@@ -311,4 +311,12 @@ li.summary {
     text-decoration: underline;
 }
 
+.code {
+    background-color: rgb(175,175,175);
+    color: black; 
+    border-radius: 2vw; 
+    padding: 1vw; 
+    display: inline-block;
+}
+
 /*--------------------------------------------------*/
