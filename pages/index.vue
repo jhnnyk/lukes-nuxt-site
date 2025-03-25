@@ -7,7 +7,7 @@ useHead({
 </script>
 
 <template>
-  <div style="display: block">
+  <div>
     <NewHeader />
     <br />
     <div class="flex-container thumbnails">
@@ -48,7 +48,15 @@ useHead({
     </div>
     <br />
     <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-    <p>Hello! Look at those cool published games! ;o;</p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp; Wow! Those are some cool published games! ;o;
+    </p>
   </div>
 </template>

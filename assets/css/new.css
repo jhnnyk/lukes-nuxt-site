@@ -6,6 +6,7 @@
     margin-right: 0px;
     padding: 0px;
     width: 100%;
+    color: rgb(176, 176, 189);
 }
 
 #newlook div {
@@ -14,7 +15,6 @@
 }
 
 #newlook p {
-    color: rgb(195, 195, 219);
     padding: 1vw 1.5vw 1vw 3vw;
     margin: 0px;
 }
@@ -58,11 +58,12 @@
 
 .thumbnail-image {
     width: 90%;
-    display: inline;
-    margin: 1vw;
+    display: block;
+    margin: 1vw auto 1vw auto;
     border-width: 0.3vw;
     /* Keep this the same as .thumbnail border-color */
     border-color: rgb(32, 32, 32);
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
 }
 
     /* Override typical spacing to fit better with the image's padding. */
@@ -88,3 +89,5 @@
     line-height: 150%;
     color: rgb(50, 50, 50);
 }
+
+/*--------------------------------------------------*/
