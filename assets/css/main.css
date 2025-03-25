@@ -1,3 +1,5 @@
+/*------------------GENERAL-----------------------*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
@@ -6,12 +8,10 @@ body {
     margin-right: 20%;
     margin-bottom: 10%;
     background-color: rgb(53, 76, 60);
-    transition: 1s;
 }
 
 p {
     line-height: 3vw;
-    transition: 0.5s;
 }
 
 main {
@@ -20,77 +20,39 @@ main {
     background-color: rgb(38, 41, 38);
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        font-size: 4vw;
+    }
+
+    p {
+        line-height: 6.5vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+
+    p {
+        line-height: 32px;
+    }
+}
+
+/*----------------TOPNAV----------------------*/
+
 nav {
     margin-top: 1vw;
     padding: 1vw;
     box-shadow: 2px 2px 4px;
     background-color: rgb(84, 81, 86);
-}
-
-.contact-box {
-    padding: 1vw;
-    background-color: rgb(108, 93, 120);
-}
-
-.contact-img {
-    width: 50%;
-    border-style: none;
-}
-
-
-img.gallery {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 20vw;
-    display: inline-block;
-    text-align: center;
-    border-style: none;
-}
-
-img {
-    width: 50vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-color: rgb(32, 32, 32);
-    border-radius: 1vw;
-}
-
-h1 {
-    color: rgb(34, 102, 34);
-    margin: 0px;
-}
-
-h2 {
-    color: rgb(34, 102, 34);
-}
-
-a {
-    color: rgb(123, 63, 123);
-}
-a:hover {
-    color: rgb(65, 65, 146);
-}
-
-li {
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-a.buttonlink {
-    text-decoration: none;
-    padding: 2.5%;
-    background-color: rgb(91, 66, 91);
-    color: rgb(54, 35, 70);
-    transition: 0.3s;
-    border: solid;
-    font-size: 100%;
-    display: flex;
-    width: 40%;
-    box-shadow: 0.25vw 0.25vw 0.5vw #242424;
 }
 
 .flex-container {
@@ -118,43 +80,6 @@ a.buttonlink {
     background-color: rgb(104, 104, 104);
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 10%;
-        transition: 1s;
-        font-size: 4vw;
-    }
-
-    p {
-        line-height: 6.5vw;
-    }
-
-    img {
-        width: 70vw;
-    }
-
-    a.buttonlink {
-        padding-top: 5%;
-        width: 80%;
-    }
-
-    .contact-img {
-        width: 80%;
-    }
-
-    .flex-container {
-        margin-left: 5%;
-        margin-right: 5%;
-      }
-
-    .invertbutton {
-        font-size: 3vw;
-    }
-
-}
-
 .topnav-link {
     color: rgb(78, 20, 85);
     text-decoration: none;
@@ -169,61 +94,110 @@ a.buttonlink {
     text-decoration: underline;
 }
 
-ul {
-    list-style-type: none;
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+
+    .invertbutton {
+        font-size: 3vw;
+    }
 }
 
-a.buttonlink:visited {
-    color: rgb(62, 47, 19);
-    background-color: rgb(130, 101, 48);
-}
-.buttonlink:visited:hover {
-    color: rgb(13, 49, 13);
-    background-color: rgb(49, 92, 49);
-}
-a.buttonlink:hover {
-    background-color: rgb(168, 168, 212);
-    box-shadow: 0.25vw 0.25vw 0.5vw #181818;
-    transition: 0.3s;
+@media only screen and (min-width: 1000px) {
+    .topnav-link {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .invertbutton {
+        font-size: 15px;
+    }
 }
 
-/*This section is for special classes:*/
+/*----------------FOOTER----------------------*/
 
-.glow:hover {
-    color: rgb(205, 36, 191);
+.contact-box {
+    padding: 1vw;
+    background-color: rgb(108, 93, 120);
 }
-/*the glow class was used so I could make the word "coffee" glow in devlog #3, partially as a reference to the home page text from Don't Go Outside.*/
 
-.bug {
-    transition: 8s;
+.contact-img {
+    width: 50%;
+    border-style: none;
 }
-.bug:hover {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 500%;
-}
-/*This may be getting a tad carried away, but I was talking about a bug, and I thought it would be funny if the font changed when you hovered over the word bug. Also for devlog #3 */
 
-.upsidedown {
+@media only screen and (max-width: 600px) {
+    .contact-img {
+        width: 80%;
+    }
+}
+
+/*----------------IMAGES----------------------*/
+
+img.gallery {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20vw;
     display: inline-block;
-    transform: scale(-1, -1);
-    /* additional transforms are for different browers, I think. I dunno */
-    -ms-transform:rotate(-1, -1);
-    -moz-transform:rotate(-1, -1);
-    -webkit-transform:rotate(-1, -1);
-    -o-transform:rotate(-1, -1);
+    text-align: center;
+    border-style: none;
 }
 
-.vertical-flip {
-    display: inline-block;
-    transform: scale(1, -1);
-    /* additional transforms are for different browers, I think. I dunno */
-    -ms-transform:rotate(1, -1);
-    -moz-transform:rotate(1, -1);
-    -webkit-transform:rotate(1, -1);
-    -o-transform:rotate(1, -1);
+img {
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    border-radius: 1vw;
 }
 
-/* Above is a special class that makes things upside-down. I used this in devlog #16 to make the word "gravity" appear upside down, cuz we want our game (ERASE) to let you walk upside down. */
+    /* Special styling for text that goes under images to describe them. */
+.image-desc {
+    font-size: 80%;
+    color: rgb(82, 112, 90);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+    /* The contact image is under the "FOOTER" section. */
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 70vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    img {
+        width: 480px;
+    }
+}
+
+/*----------------HEADINGS----------------------*/
+
+h1 {
+    color: rgb(34, 102, 34);
+    margin: 0px;
+}
+
+h2 {
+    color: rgb(34, 102, 34);
+}
+
+/*----------------LINKS----------------------*/
+
+a {
+    color: rgb(123, 63, 123);
+}
+a:hover {
+    color: rgb(65, 65, 146);
+}
 
 .inline-link {
     padding: 0%;
@@ -235,16 +209,94 @@ a.buttonlink:hover {
     color: rgb(127, 89, 19);
 }
 
+    /* Topnav links are under "TOPNAV". */
+
+    /*------BUTTON-LINK--------*/
+    a.buttonlink {
+        text-decoration: none;
+        padding: 2.5%;
+        background-color: rgb(91, 66, 91);
+        color: rgb(54, 35, 70);
+        transition: 0.3s;
+        border: solid;
+        font-size: 100%;
+        display: flex;
+        width: 40%;
+        box-shadow: 0.25vw 0.25vw 0.5vw #242424;
+    }
+
+    a.buttonlink:hover {
+        background-color: rgb(168, 168, 212);
+        box-shadow: 0.25vw 0.25vw 0.5vw #181818;
+        transition: 0.3s;
+    }
+
+    a.buttonlink:visited {
+        color: rgb(62, 47, 19);
+        background-color: rgb(130, 101, 48);
+    }
+
+    .buttonlink:visited:hover {
+        color: rgb(13, 49, 13);
+        background-color: rgb(49, 92, 49);
+    }
+
+/*----------------LISTS----------------------*/
+
+li {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+    /* List styling for the "summary" bullet points at the beginning of my blog posts. */
+li.summary {
+    list-style: disc;
+}
+
+/*----------------DEOCRATIONS----------------------*/
+
+        /*the glow class was used so I could make the word "coffee" glow in devlog #3, partially as a reference to the home page text from Don't Go Outside.*/
+    .glow:hover {
+        color: rgb(205, 36, 191);
+    }
+
+        /*This may be getting a tad carried away, but I was talking about a bug, and I thought it would be funny if the font changed when you hovered over the word bug. Also for devlog #3 */
+    .bug {
+        transition: 8s;
+    }
+    .bug:hover {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 500%;
+    }
+
+        /* Above is a special class that makes things upside-down. I used this in devlog #16 to make the word "gravity" appear upside down, cuz we want our game (ERASE) to let you walk upside down. */
+    .upsidedown {
+        display: inline-block;
+        transform: scale(-1, -1);
+        /* additional transforms are for different browers, I think. I dunno */
+        -ms-transform:rotate(-1, -1);
+        -moz-transform:rotate(-1, -1);
+        -webkit-transform:rotate(-1, -1);
+        -o-transform:rotate(-1, -1);
+    }
+
+    .vertical-flip {
+        display: inline-block;
+        transform: scale(1, -1);
+        /* additional transforms are for different browers, I think. I dunno */
+        -ms-transform:rotate(1, -1);
+        -moz-transform:rotate(1, -1);
+        -webkit-transform:rotate(1, -1);
+        -o-transform:rotate(1, -1);
+    }
+
 .date {
     font-size: 80%;
     margin-left: 1vw;
-}
-
-.image-desc {
-    font-size: 80%;
-    color: rgb(82, 112, 90);
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 .signature {
@@ -255,54 +307,8 @@ a.buttonlink:hover {
     margin-right: 10%;
 }
 
-li.summary {
-    list-style: disc;
-}
-
 .underline {
     text-decoration: underline;
 }
 
-.homelink {
-    color: green;
-    background-color: rgb(133, 124, 124);
-    display: flex;
-    width: 60%;
-    margin-left: 2vw;
-    padding-left: 5vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    box-shadow: 0.25vw 0.25vw 0.5vw #363636;
-    transition: 0.3s;
-}
-.homelink:hover {
-    background-color: rgb(133, 125, 120);
-    box-shadow: 0.25vw 0.25vw 0.5vw #000000;
-    transition: 0.3s;
-}
-
-@media only screen and (min-width: 1000px) {
-    body {
-        width: 550px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 20px;
-    }
-
-    img {
-        width: 480px;
-    }
-
-    .topnav-link {
-        font-size: 20px;
-        padding: 10px;
-    }
-
-    .invertbutton {
-        font-size: 15px;
-    }
-
-    p {
-        line-height: 32px;
-    }
-}
+/*--------------------------------------------------*/

@@ -7,16 +7,32 @@ useHead({
 </script>
 
 <template>
-  <div>
+  <div style="display: block">
+    <NewHeader />
+
+    <Thumbnail
+      :image="`/images/thumbnails/thehunt.png`"
+      :link="`/projects/thehunt`"
+    >
+      <p>The Hunt (2025)</p>
+    </Thumbnail>
+    <Thumbnail
+      :image="`/images/thumbnails/thehunt.png`"
+      :link="`/projects/thehunt`"
+    >
+      <p>The Hunt (2025)</p>
+    </Thumbnail>
+    <Thumbnail
+      :image="`/images/thumbnails/thehunt.png`"
+      :link="`/projects/thehunt`"
+    >
+      <p>The Hunt (2025)</p>
+    </Thumbnail>
+
     <p>
-      <a class="unlink" href="/about">Luke Knotts</a> |
-      <a class="unlink" href="/projects/projectshome">Game Design</a>
+      Hello! tehwoigwfo whfhwoghwifghwdoghwd dif whoigwdifghwod fi
+      wgowdhfiwdhgiogwdiogfhiowdfhiodwgfodwfgowid dfw dwguofgwdoifgiodwfgho
+      dwgfhwdoigiowghiodwghf owdifgwdogwohgow
     </p>
-    <a href="projects/thehunt">
-      <div class="thumbnail">
-        <img src="/images/thumbnails/thehunt.png" class="thumbnail-image" />
-        <p>Hello, here's some text.</p>
-      </div>
-    </a>
   </div>
 </template>
