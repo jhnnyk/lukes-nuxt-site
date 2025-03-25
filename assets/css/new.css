@@ -15,7 +15,7 @@
 
 #newlook p {
     color: rgb(195, 195, 219);
-    padding: 1vw;
+    padding: 1vw 1.5vw 1vw 3vw;
     margin: 0px;
 }
 
@@ -82,9 +82,9 @@
     color: rgb(50, 50, 50);
 }
 
-.thumb-desc {
-    margin: 10px;
-    padding: 10px;
+#newlook .thumb-desc p {
+    padding: 5px;
     font-size: 15px;
-    line-height: 100%;
+    line-height: 150%;
+    color: rgb(50, 50, 50);
 }
