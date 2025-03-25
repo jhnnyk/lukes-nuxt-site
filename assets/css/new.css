@@ -53,10 +53,11 @@
     /* Keep this the same as .thumbnail-image border-color */
     border-color: rgb(32, 32, 32);
     box-shadow: 1vw 1vw;
+    width: 250px;
 }
 
 .thumbnail-image {
-    width: 25vw;
+    width: 90%;
     display: inline;
     margin: 1vw;
     border-width: 0.3vw;
@@ -68,4 +69,22 @@
 #newlook .thumbnail p {
     display: block;
     padding: 0vw 0vw 1vw 1vw;
+}
+
+.flex-container.thumbnails {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*--------------DECORATION-------------------*/
+
+.dark-text {
+    color: rgb(50, 50, 50);
+}
+
+.thumb-desc {
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 100%;
 }
