@@ -311,6 +311,14 @@ li.summary {
     text-decoration: underline;
 }
 
+.white {
+    color: rgb(204, 204, 204);
+}
+
+.noTopMargin {
+    margin-top: 0px;
+}
+
 .code {
     background-color: rgb(175,175,175);
     color: black; 

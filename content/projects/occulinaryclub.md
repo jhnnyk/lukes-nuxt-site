@@ -1,9 +1,11 @@
 ---
-title: "Occulinary Club project page"
+title: "Project: The Occulinary Club"
 description: "A page about the Occulinary Club"
 ---
 
-# The ocCulinary Club
+<p class="white noTopMargin">The Occulinary Club</p>
+
+<img src="/images/occulinary-club/banner.png">
 
 A project produced during a two week game jam (initially one week but it got extended) based on the prompt <i>Paralyzed!</i> in September 2024. I got to work with some amazing people: Cade, Luma Volta, Royce Reinwald, and Vixen.
 

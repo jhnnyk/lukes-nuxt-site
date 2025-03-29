@@ -16,6 +16,7 @@
 
 #newlook p {
     padding: 1vw 1.5vw 1vw 3vw;
+    font-size: 90%;
     margin: 0px;
 }
 
@@ -35,6 +36,10 @@
 
 /*-----------------TOPNAV--------------------------*/
 
+.topnav-text {
+    font-size: 125%;
+}
+
 .unlink {
     color: rgb(195, 195, 219);
     text-decoration: none;
@@ -43,7 +48,7 @@
 /*--------------THUMBNAIL-STYLING-------------------*/
 
 .thumbnail {
-    margin: 5vw;
+    margin: 1vw 5vw 5vw 5vw;
     display: inline-block;
     border-radius: 1vw;
     background-color: grey;

@@ -10,6 +10,8 @@ useHead({
   <div>
     <NewHeader />
     <br />
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Published games:</p>
+
     <div class="flex-container thumbnails">
       <Thumbnail
         :image="`/images/thumbnails/thehunt.png`"
@@ -26,6 +28,7 @@ useHead({
           </p>
         </div>
       </Thumbnail>
+
       <Thumbnail
         :image="`/images/thumbnails/occulinaryclub.png`"
         :link="`/projects/occulinaryclub`"
@@ -46,17 +49,5 @@ useHead({
         </div>
       </Thumbnail>
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <p>
-      &nbsp;&nbsp;&nbsp;&nbsp; Wow! Those are some cool published games! ;o;
-    </p>
   </div>
 </template>
