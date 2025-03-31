@@ -98,7 +98,7 @@ const posts = ref([
     id: 29,
     label: "Entry 29",
     date: "Feb/27/2025",
-    link: "/feb-27-2025",
+    link: "/devlog/feb-27-2025",
   },
   {
     id: 30,
