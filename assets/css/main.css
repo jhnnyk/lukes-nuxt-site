@@ -160,9 +160,13 @@ img {
     /* Special styling for text that goes under images to describe them. */
 .image-desc {
     font-size: 80%;
-    color: rgb(82, 112, 90);
-    padding-left: 5%;
-    padding-right: 5%;
+    display: block;
+    color: rgb(36, 36, 36);
+    background-color: grey;
+    line-height: 100%;
+    padding: 2% 3% 2% 3%;
+    border-radius: 0.5vw;
+    margin: 0px;
 }
 
     /* The contact image is under the "FOOTER" section. */
