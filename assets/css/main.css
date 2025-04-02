@@ -255,6 +255,20 @@ li.summary {
     list-style: disc;
 }
 
+/*----------------TABLES----------------------*/
+
+table {
+    color: rgb(42, 42, 42);
+    border: solid;
+    border-width: 1px;
+    background-color: rgb(29, 29, 29);
+}
+
+td {
+    background-color: grey;
+    padding: 1vw;
+}
+
 /*----------------DEOCRATIONS----------------------*/
 
         /*the glow class was used so I could make the word "coffee" glow in devlog #3, partially as a reference to the home page text from Don't Go Outside.*/
