@@ -148,13 +148,19 @@ img.gallery {
 }
 
 img {
-    width: 50vw;
+    width: min(100%, 80vw);
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
     border-color: rgb(32, 32, 32);
     border-radius: 1vw;
+}
+
+    /* Special styles for images I want to reproduce as faithfully to the original image as possible. */
+img.archive {
+    border: none;
+    border-radius: 0px;
 }
 
     /* Special styling for text that goes under images to describe them. */
@@ -169,19 +175,7 @@ img {
     margin: 0px;
 }
 
-    /* The contact image is under the "FOOTER" section. */
-
-@media only screen and (max-width: 600px) {
-    img {
-        width: 70vw;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    img {
-        width: 480px;
-    }
-}
+   /* The contact image is under the "FOOTER" section. */
 
 /*----------------HEADINGS----------------------*/
 
@@ -321,6 +315,10 @@ li.summary {
 
 .noTopMargin {
     margin-top: 0px;
+}
+
+.halfWidth {
+    width: 50%;
 }
 
 .code {
