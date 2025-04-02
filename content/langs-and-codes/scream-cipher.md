@@ -9,7 +9,7 @@ A substitution cipher for the 26-letter English alphabet.
 
 It was made by xkcd.com, seemingly as a joke based on the fact that all text in Scream Cipher looks kind of like screaming.
 
-<img src="https://imgs.xkcd.com/comics/scream_cipher_2x.png" title="AAAAAA A ÃA̧AȂA̦ ǍÅÂÃĀÁȂ AAAAAAA!" class="archive halfWidth"/>
+<img src="/images/langs-and-codes/scream-cipher-xkcd.png" title="AAAAAA A ÃA̧AȂA̦ ǍÅÂÃĀÁȂ AAAAAAA!" class="archive halfWidth"/>
 
 <span class="image-desc">You can see the original webcomic <a href="https://xkcd.com/3054/">here</a>.</span>
 
@@ -79,5 +79,30 @@ Below is the scream cipher in a table.
     <tr>
         <td>R</td><td>&#514;</td><td>&amp;#514;</td>
     </tr>
-
+    <tr>
+        <td>S</td><td>&#195;</td><td>&amp;#195;</td>
+    </tr>
+    <tr>
+        <td>T</td><td>&#256;</td><td>&amp;#256;</td>
+    </tr>
+    <tr>
+        <td>U</td><td>&#196;</td><td>&amp;#196;</td>
+    </tr>
+    <tr>
+        <td>V</td><td>&#192;</td><td>&amp;#192;</td>
+    </tr>
+    <tr>
+        <td>W</td><td>&#512;</td><td>&amp;#512;</td>
+    </tr>
+    <tr>
+        <td>X</td><td>A&#829;</td><td>&amp;#65;&amp;#829;</td>
+    </tr>
+    <tr>
+        <td>Y</td><td>A&#806;</td><td>&amp;#65;&amp;#806;</td>
+    </tr>
+    <tr>
+        <td>Z</td><td>A&#823;</td><td>&amp;#65;&amp;#823;</td>
+    </tr>
 </table>
+
+I'm not too sure about my transciption of the character for "Z", but it's good enough --and at least that encoding isn't ambiguous. So yeah. Scream folks.
