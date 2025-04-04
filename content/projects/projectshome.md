@@ -3,26 +3,37 @@ title: "Projects"
 description: "A list of some of Luke's projects"
 ---
 
-# Projects
-
-The place to find various projects I have worked on. Right now, everything you'll find here was created in collaboration with others, some artists, some programmers, some designers. I have not made a single one of these projects all by myself.
-
-I hope to fill this page with more projects later, though out of everything I've worked on, my favorite is <i>The Hunt</i> (2025), which is available to play on mac and windows.
-
-<hr />
-
 <h1>Games</h1>
 
-<ul>
-<li><a class="buttonlink" href="/projects/thehunt">The Hunt</a></li>
-<li><a class="buttonlink" href="/projects/occulinaryclub">The ocCulinary Club</a></li>
-</ul>
+<hr />
+
+::thumbnail{image="/images/thumbnails/thehunt.png" link="/projects/thehunt"}
+
+<div class="thumb-desc">
+    <p class="underline"> &nbsp; The Hunt (2025)</p>
+</div>
+::
+
+::thumbnail{image="/images/thumbnails/occulinaryclub.png" link="/projects/occulinaryclub"}
+
+<div class="thumb-desc">
+    <p class="underline"> &nbsp; The Occulinary Club (2024)</p>
+</div>
+::
 
 <hr />
 
-<h1>Incomplete or Abandoned</h1>
+Every project I have worked on, I haved worked on with others. Other coders, artists, musicians, and designers are why any of these projects exist at all.
+
+I'm currently working with a team to create a game in Unreal Engine 5.
+
+<hr />
+
+<h1>Archive</h1>
 
 <ul>
+<li><a class="buttonlink" href="/projects/thehunt">The Hunt (2025)</a></li>
+<li><a class="buttonlink" href="/projects/worldthumbboxing">World Thumb Boxing (2024) [Unfinished]</a></li>
+<li><a class="buttonlink" href="/projects/occulinaryclub">The Occulinary Club (2024)</a></li>
 <li><a class="buttonlink" href="/projects/dontgooutside">Don't Go Outside</a></li>
-<li><a class="buttonlink" href="/projects/worldthumbboxing">World Thumb Boxing</a></li>
 </ul>

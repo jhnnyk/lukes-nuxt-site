@@ -175,6 +175,27 @@ img.archive {
     margin: 0px;
 }
 
+    /* The below section is for my ImageSwitch component. It will show one image when hovererd over, and another when not hovered over. Cover image is shown on default, the hidden image is only seen on hover. */
+
+    .image-switch {
+        margin-top: 10px;
+    }
+
+    .image-switch  .hidden-image {
+        display: none;
+    }
+    .image-switch:hover .hidden-image {
+        display: block;
+    }
+
+    .image-switch .cover-image {
+        display: visible;
+    }
+    .image-switch:hover .cover-image {
+        display: none;
+    }
+
+
    /* The contact image is under the "FOOTER" section. */
 
 /*----------------HEADINGS----------------------*/
@@ -195,6 +216,11 @@ a {
 }
 a:hover {
     color: rgb(65, 65, 146);
+}
+
+.unlink {
+    color: rgb(195, 195, 219);
+    text-decoration: none;
 }
 
 .inline-link {
@@ -251,7 +277,7 @@ ul {
 }
 
     /* List styling for the "summary" bullet points at the beginning of my blog posts. */
-li.summary {
+.summary {
     list-style: disc;
 }
 
@@ -325,6 +351,14 @@ td {
 
 .white {
     color: rgb(204, 204, 204);
+}
+
+.black {
+    color: black;
+}
+
+.smallFont {
+    font-size: 70%;
 }
 
 .noTopMargin {

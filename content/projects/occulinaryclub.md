@@ -1,11 +1,21 @@
 ---
-title: "Project: The Occulinary Club"
-description: "A page about the Occulinary Club"
+title: "Project: The ocCulinary Club"
+description: "A page about the ocCulinary Club"
 ---
 
-<p class="white noTopMargin">The Occulinary Club</p>
+<p class="white noTopMargin">The ocCulinary Club</p>
 
 <img src="/images/occulinary-club/banner.png">
+
+<ul class="summary">
+    <li>Team Size: Six</li>
+    <li>Languages: Javascript, HTML, CSS</li>
+    <li>Role: Project Manager, Design, Web Development</li>
+    <li>Made In: &#8776; 2 Weeks</li>
+    <li><a href="https://rollsroyce21.itch.io/the-occulinary-club">Play it!</a></li>
+</ul>
+
+---
 
 A project produced during a two week game jam (initially one week but it got extended) based on the prompt <i>Paralyzed!</i> in September 2024. I got to work with some amazing people: Cade, Luma Volta, Royce Reinwald, and Vixen.
 

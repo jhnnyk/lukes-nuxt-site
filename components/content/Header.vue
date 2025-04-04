@@ -13,7 +13,7 @@
         <a class="topnav-link" href="/devloghome">Dev Log</a>
       </div>
       <div class="link">
-        <a class="topnav-link" href="/projects/projectshome">Projects</a>
+        <a class="topnav-link" href="/projects/projectshome">Games</a>
       </div>
       <div>
         <FlipButton />

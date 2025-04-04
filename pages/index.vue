@@ -37,8 +37,8 @@ useHead({
           <p class="underline">The Occulinary Club (2024)</p>
           <p>
             Team Size: <span class="dark-text">Six</span> <br />
-            Software:
-            <span class="dark-text">Netlify, Javascript, HTML, CSS</span> <br />
+            Languages:
+            <span class="dark-text">Javascript, HTML, CSS</span> <br />
             Role:
             <span class="dark-text"
               >Project Manager, Game Design, Web Development</span

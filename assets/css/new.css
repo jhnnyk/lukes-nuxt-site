@@ -57,8 +57,12 @@
     border-width: 2px;
     /* Keep this the same as .thumbnail-image border-color */
     border-color: rgb(32, 32, 32);
-    box-shadow: 1vw 1vw;
+    box-shadow: 1vw 1vw rgb(123, 63, 123);
     width: 250px;
+}
+
+.thumbnail:hover {
+    box-shadow: 1vw 1vw rgb(65, 65, 146);
 }
 
 .thumbnail-image {
