@@ -5,8 +5,9 @@
       <slot />
       <Footer />
     </main>
-    <div id="upmessage" class="image-desc" style="display: none">
-      <p class="upsidedown">
+    <div id="upmessage" style="display: none">
+      <br />
+      <p class="upsidedown image-desc">
         What do you think you're doing, turning my website upside down!?
       </p>
     </div>
