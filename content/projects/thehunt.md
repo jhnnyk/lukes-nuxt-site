@@ -9,16 +9,16 @@ description: "A page about our game jam project"
 ::
 
 <ul class="summary">
-    <li>Team Size: Nine (Overclocked Studios!!)</li>
+    <li>Team Size: Nine</li>
     <li>Engine: Unreal Engine 5</li>
     <li>Role: Project Manager, Level Design</li>
-    <li>Made In: &#8776; 48 Weeks</li>
+    <li>Made In: &#8776; 48 Hours</li>
     <li><a href="https://blob-guy.itch.io/overclocked-cj-2025">Play it!</a></li>
 </ul>
 
 ---
 
-<i>The Hunt</i> is a small project made over the "Run" Creative Jam weekened in 2025. It was made by 9 talented individuals.
+<i>The Hunt</i> is a small project made over the "Run" Creative Jam weekened in 2025. It was made by 9 people making up Overclocked Studios.
 
 It has a couple problems, but if you can get passed the technical difficulties, it has some fun parts.
 
