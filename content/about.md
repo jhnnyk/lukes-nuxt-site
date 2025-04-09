@@ -9,7 +9,7 @@ Studying game design, Knotts is a high school student with interests in storytel
 
 Currently doing design work and managing a team of artists and coders to create a game in Unreal Engine 5.
 
-<img src="/images/notebookdice.png"/>
+<img src="/images/notebookdice.png" title="Look at this cool photo I took!"/>
 
 Itch.io creator page: <a href="https://blob-guy.itch.io">blob-guy.itch.io</a>
 
