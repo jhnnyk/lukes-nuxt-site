@@ -5,7 +5,7 @@ description: "A page about the ocCulinary Club"
 
 <p class="white noTopMargin">The ocCulinary Club</p>
 
-<img src="/images/occulinary-club/banner.png">
+<img title="An almost official club of Hippocampus High School!" src="/images/occulinary-club/banner.png" alt="A mad scientist smiles over the 'Culinary Club' banner. He has a whisk. And a knife.">
 
 <ul class="summary">
     <li>Team Size: Six</li>

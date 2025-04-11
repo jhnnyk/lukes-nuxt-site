@@ -7,14 +7,14 @@ description: "A list of some of Luke's projects"
 
 <hr />
 
-::thumbnail{image="/images/thumbnails/thehunt.png" link="/projects/thehunt"}
+::thumbnail{image="/images/thumbnails/thehunt.png" imagetitle="You should play this one!" imagealt="A tentacle monster charges throuhg a subway. This game looks fun." link="/projects/thehunt"}
 
 <div class="thumb-desc">
     <p class="underline"> &nbsp; The Hunt (2025)</p>
 </div>
 ::
 
-::thumbnail{image="/images/thumbnails/occulinaryclub.png" link="/projects/occulinaryclub"}
+::thumbnail{image="/images/thumbnails/occulinaryclub.png" imagetitle="This game is only good for nerds with nothing better to do." imagealt="A mad scientist over a banner that says 'Culinary Club'. This game might be too weird for us..." link="/projects/occulinaryclub"}
 
 <div class="thumb-desc">
     <p class="underline"> &nbsp; The Occulinary Club (2024)</p>

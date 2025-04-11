@@ -5,7 +5,7 @@ description: "A page about our game jam project"
 
 # The Hunt
 
-::image-switch{coverimage="/images/thehunt/safe.png" covertitle="Seems nice and calm." hiddenimage="/images/thehunt/unsafe.png" hiddentitle="OH NO!!! A MONSTER!!!!!!"}
+::image-switch{coverimage="/images/thehunt/safe.png" covertitle="Seems nice and calm." coveralt="An eerily empty subway system." hiddenimage="/images/thehunt/unsafe.png" hiddentitle="OH NO!!! A MONSTER!!!!!!" hiddenalt="Run! A tentacle monster is tumbling through the subway!"}
 ::
 
 <ul class="summary">

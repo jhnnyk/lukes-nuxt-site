@@ -15,6 +15,8 @@ useHead({
     <div class="flex-container thumbnails">
       <Thumbnail
         :image="`/images/thumbnails/thehunt.png`"
+        :imagetitle="`Ooh, this game looks fun.`"
+        :imagealt="`The preview image for *The Hunt*. An epic tentacle monster crawls through a subway.`"
         :link="`/projects/thehunt`"
       >
         <div class="thumb-desc">
@@ -31,6 +33,8 @@ useHead({
 
       <Thumbnail
         :image="`/images/thumbnails/occulinaryclub.png`"
+        :imagetitle="`This game also looks fun.`"
+        :imagealt="`A cartoon drawing of what appears to be a mad scientist with a knife and whisk. This game could be weird...`"
         :link="`/projects/occulinaryclub`"
       >
         <div class="thumb-desc">

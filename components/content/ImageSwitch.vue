@@ -3,12 +3,29 @@ This component will be used to set up a pair of images so one will show only whe
 -->
 
 <script setup>
-defineProps(["coverimage", "hiddenimage", "covertitle", "hiddentitle"]);
+defineProps([
+  "coverimage",
+  "hiddenimage",
+  "covertitle",
+  "hiddentitle",
+  "coveralt",
+  "hiddenalt",
+]);
 </script>
 
 <template>
   <div class="image-switch">
-    <img :src="coverimage" class="cover-image" :title="covertitle" />
-    <img :src="hiddenimage" class="hidden-image" :title="hiddentitle" />
+    <img
+      :src="coverimage"
+      class="cover-image"
+      :title="covertitle"
+      :alt="coveralt"
+    />
+    <img
+      :src="hiddenimage"
+      class="hidden-image"
+      :title="hiddentitle"
+      :alt="hiddenalt"
+    />
   </div>
 </template>
