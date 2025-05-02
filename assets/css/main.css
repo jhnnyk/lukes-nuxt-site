@@ -332,6 +332,10 @@ td {
         -o-transform:rotate(1, -1);
     }
 
+    .willhide:hover {
+        visibility: hidden;
+    }
+
 .date {
     font-size: 80%;
     margin-left: 1vw;
