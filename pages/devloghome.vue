@@ -148,6 +148,12 @@ const posts = ref([
     date: "May/2/2025",
     link: "/devlog/may-2-2025",
   },
+  {
+    id: 38,
+    label: "Entry 38",
+    date: "May/10/2025",
+    link: "/devlog/may-10-2025",
+  },
 ]);
 const testPosts = ref([
   {
