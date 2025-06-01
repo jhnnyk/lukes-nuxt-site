@@ -281,6 +281,33 @@ ul {
     list-style: disc;
 }
 
+/*----------------COMPONENTS----------------------*/
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popupContent {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupContent .show {
+  visibility: visible;
+}
+
 /*----------------TABLES----------------------*/
 
 table {
@@ -335,6 +362,33 @@ td {
     .willhide:hover {
         visibility: hidden;
     }
+
+/* Heading for my Music Theory webpage! */
+.musictheory-header {
+    color: rgb(85, 138, 95);
+}
+
+    /* Special styling for text that goes under images to describe them. */
+.music-credit {
+    font-size: 80%;
+    display: inline-block;
+    color: rgb(36, 36, 36);
+    background-color: grey;
+    line-height: 100%;
+    padding: 2% 3% 2% 3%;
+    border-radius: 0.5vw;
+    margin: 0px;
+}
+
+.musictheory-subheader {
+    color: rgb(85, 138, 95);
+    font-size: 120%;
+}
+
+.musictheory-subsubheader {
+    color: rgb(122, 79, 142);
+    font-size: 100%;
+}
 
 .date {
     font-size: 80%;
