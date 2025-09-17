@@ -1,4 +1,5 @@
 <script setup>
+// imports
 import { ref } from "vue";
 
 // bugOne
@@ -27,9 +28,24 @@ function runAnimationTwo() {
   setTimeout(updateAnimationTwo2, 600);
 }
 
+// bugThree
+const bugThree = ref("");
+function updateBugThree1() {
+  bugThree.value = "~-~";
+}
+function updateBugThree2() {
+  bugThree.value = "-~-";
+}
+function runBugThree() {
+  setTimeout(updateBugThree1, 20);
+  setTimeout(updateBugThree2, 90);
+}
+
+// run all animations
 onMounted(() => {
   setInterval(runAnimationOne, 750);
   setInterval(runAnimationTwo, 800);
+  setInterval(runBugThree, 500);
 });
 </script>
 
@@ -47,6 +63,13 @@ onMounted(() => {
       <hr />
       <p>This next guy is a pre cool one.</p>
       <pre><code>{{ bugTwo }}</code></pre>
+      <!--Bug Three, dropped off at my doorstep!-->
+      <hr />
+      <p>
+        A curious sample that appeared at my doorstep. Seeing it's subtle
+        elegance and complexity, I simply had to show you.
+      </p>
+      <pre><code>{{ bugThree }}</code></pre>
       <!--End for now-->
       <hr />
     </div>
