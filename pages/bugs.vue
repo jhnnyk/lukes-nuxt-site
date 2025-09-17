@@ -41,11 +41,49 @@ function runBugThree() {
   setTimeout(updateBugThree2, 200);
 }
 
+// bugFour
+const bugFour = ref("");
+function updateBugFour1() {
+  bugFour.value = ",...,...";
+}
+function updateBugFour2() {
+  bugFour.value = ".,...,..";
+}
+function updateBugFour3() {
+  bugFour.value = "..,...,.";
+}
+function updateBugFour4() {
+  bugFour.value = "...,...,";
+}
+function updateBugFour5() {
+  bugFour.value = ",...,...";
+}
+function updateBugFour6() {
+  bugFour.value = ".,...,..";
+}
+function updateBugFour7() {
+  bugFour.value = "..,...,.";
+}
+function updateBugFour8() {
+  bugFour.value = "...,...,";
+}
+function runBugFour() {
+  setTimeout(updateBugFour1, 0);
+  setTimeout(updateBugFour2, 150);
+  setTimeout(updateBugFour3, 300);
+  setTimeout(updateBugFour4, 450);
+  setTimeout(updateBugFour5, 600);
+  setTimeout(updateBugFour6, 750);
+  setTimeout(updateBugFour7, 900);
+  setTimeout(updateBugFour8, 1150);
+}
+
 // run all animations
 onMounted(() => {
   setInterval(runAnimationOne, 750);
   setInterval(runAnimationTwo, 800);
   setInterval(runBugThree, 400);
+  setInterval(runBugFour, 1300);
 });
 </script>
 
@@ -112,6 +150,28 @@ onMounted(() => {
         elegance and complexity, I simply had to show you.
       </p>
       <pre><code>{{ bugThree }}</code></pre>
+
+      <!----------------Bug Four------------------>
+      <hr />
+      <!--Basic Stats-->
+      <div class="flex-container">
+        <div>
+          <p><span class="underline">Species:</span> Rope Bug</p>
+        </div>
+        <div>
+          <p><span class="underline">Discovered:</span> today</p>
+        </div>
+        <div>
+          <p><span class="underline">Found by:</span> (donation)</p>
+        </div>
+      </div>
+      <!--Blurb + Bug-->
+      <p>
+        Another gift left at my doorstep. I find the formation of this lil'
+        wriggler kind of rope-like, so I named it a rope.
+      </p>
+      <pre><code>{{ bugFour }}</code></pre>
+
       <!-----------------End for now---------------->
       <hr />
     </div>
