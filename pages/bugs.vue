@@ -90,87 +90,98 @@ onMounted(() => {
 <template>
   <div>
     <div class="animation-one">
-      <h1>Luke's Hall of Bugs &nbsp; {{ bugOne }}</h1>
+      <!----------------Title Heading------------------>
+      <div>
+        <h1>Luke's Hall of Bugs &nbsp; {{ bugOne }}</h1>
+      </div>
 
       <!----------------Bug One------------------>
-      <hr />
-      <!--Basic Stats-->
-      <div class="flex-container">
-        <div>
-          <p><span class="underline">Species:</span> Flapper</p>
+      <div>
+        <hr />
+        <!--Basic Stats-->
+        <div class="flex-container">
+          <div>
+            <p><span class="underline">Species:</span> Flapper</p>
+          </div>
+          <div>
+            <p><span class="underline">Discovered:</span> Yesterday</p>
+          </div>
+          <div>
+            <p><span class="underline">Found by:</span> Luke</p>
+          </div>
         </div>
-        <div>
-          <p><span class="underline">Discovered:</span> Yesterday</p>
-        </div>
-        <div>
-          <p><span class="underline">Found by:</span> Luke</p>
-        </div>
+        <!--Blurb + Bug-->
+        <p>
+          This species is called the flapper, and is a very simple bug creature.
+        </p>
+        <pre><code>{{ bugOne }}</code></pre>
       </div>
-      <!--Blurb + Bug-->
-      <p>
-        This species is called the flapper, and is a very simple bug creature.
-      </p>
-      <pre><code>{{ bugOne }}</code></pre>
 
       <!----------------Bug Two------------------>
-      <hr />
-      <!--Basic Stats-->
-      <div class="flex-container">
-        <div>
-          <p><span class="underline">Species:</span> Parenthepillar</p>
+      <div>
+        <hr />
+        <!--Basic Stats-->
+        <div class="flex-container">
+          <div>
+            <p><span class="underline">Species:</span> Parenthepillar</p>
+          </div>
+          <div>
+            <p><span class="underline">Discovered:</span> Yesterday</p>
+          </div>
+          <div>
+            <p><span class="underline">Found by:</span> Luke</p>
+          </div>
         </div>
-        <div>
-          <p><span class="underline">Discovered:</span> Yesterday</p>
-        </div>
-        <div>
-          <p><span class="underline">Found by:</span> Luke</p>
-        </div>
+        <!--Blurb + Bug-->
+        <p>This next guy is a pre cool one.</p>
+        <pre><code>{{ bugTwo }}</code></pre>
       </div>
-      <!--Blurb + Bug-->
-      <p>This next guy is a pre cool one.</p>
-      <pre><code>{{ bugTwo }}</code></pre>
 
       <!----------------Bug Three------------------>
-      <hr />
-      <!--Basic Stats-->
-      <div class="flex-container">
-        <div>
-          <p><span class="underline">Species:</span> Title Worm</p>
+      <div>
+        <hr />
+        <!--Basic Stats-->
+        <div class="flex-container">
+          <div>
+            <p><span class="underline">Species:</span> Title Worm</p>
+          </div>
+          <div>
+            <p><span class="underline">Discovered:</span> Yesterday</p>
+          </div>
+          <div>
+            <p><span class="underline">Found by:</span> (donation)</p>
+          </div>
         </div>
-        <div>
-          <p><span class="underline">Discovered:</span> Yesterday</p>
-        </div>
-        <div>
-          <p><span class="underline">Found by:</span> (donation)</p>
-        </div>
+        <!--Blurb + Bug-->
+        <p>
+          A curious sample that appeared at my doorstep. Seeing it's subtle
+          elegance and complexity, I simply had to show you.
+        </p>
+        <pre><code>{{ bugThree }}</code></pre>
       </div>
-      <!--Blurb + Bug-->
-      <p>
-        A curious sample that appeared at my doorstep. Seeing it's subtle
-        elegance and complexity, I simply had to show you.
-      </p>
-      <pre><code>{{ bugThree }}</code></pre>
 
       <!----------------Bug Four------------------>
-      <hr />
-      <!--Basic Stats-->
-      <div class="flex-container">
-        <div>
-          <p><span class="underline">Species:</span> Rope Bug</p>
+      <div>
+        <hr />
+        <!--Basic Stats-->
+        <div class="flex-container">
+          <div>
+            <p><span class="underline">Species:</span> Rope Bug</p>
+          </div>
+          <div>
+            <p><span class="underline">Discovered:</span> today</p>
+          </div>
+          <div>
+            <p><span class="underline">Found by:</span> (donation)</p>
+          </div>
         </div>
-        <div>
-          <p><span class="underline">Discovered:</span> today</p>
-        </div>
-        <div>
-          <p><span class="underline">Found by:</span> (donation)</p>
-        </div>
+        <!--Blurb + Bug-->
+        <p>
+          Another gift left at my doorstep. I find the formation of this lil'
+          wriggler kind of rope-like, so I named it a rope.
+        </p>
+        <pre><code>{{ bugFour }}</code></pre>
       </div>
-      <!--Blurb + Bug-->
-      <p>
-        Another gift left at my doorstep. I find the formation of this lil'
-        wriggler kind of rope-like, so I named it a rope.
-      </p>
-      <pre><code>{{ bugFour }}</code></pre>
 
       <!-----------------End for now---------------->
       <hr />
@@ -250,6 +261,8 @@ pre {
 }
 
 .flex-container div {
+  background-color: rgb(233, 233, 233);
+
   border: 2px solid;
   border-color: black;
 
