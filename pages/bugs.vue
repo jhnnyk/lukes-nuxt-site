@@ -27,7 +27,7 @@ let bugs = [
     date: "16/sep/25",
     finder: "(donation)",
     blurb:
-      "A curious sample that appeared at my doorstep. Seeing it's subtle elegance and complexity, I simply had to show you. (Note: formerly called the 'Title Worm', the name was changed because Luke liked 'Tilda Worm' better.)",
+      "A curious sample that appeared at my doorstep. Seeing it's subtle elegance and complexity, I simply had to show you. (Note: formerly called the 'Title Worm', but I think 'Tilda' is a better name.)",
     species: bugThree,
   },
   {
