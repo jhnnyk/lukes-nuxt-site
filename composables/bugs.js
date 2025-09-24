@@ -1,12 +1,9 @@
+// --------------------------------------------------------------------------------
+// bugs
+//  --------------------------------------------------------------------------------
+
+// ----------- bugOne ---------------------
 export const bugOne = ref("");
-
-export const bugTwo = ref("");
-
-export const bugThree = ref("");
-
-export const bugFour = ref("");
-
-// bugOne
 function updateAnimationOne1() {
   bugOne.value = "\\()/";
 }
@@ -19,7 +16,8 @@ function runAnimationOne() {
 }
 const timeOne = 750;
 
-// bugTwo
+// ----------- bugTwo ---------------------
+export const bugTwo = ref("");
 function updateAnimationTwo1() {
   bugTwo.value = "(( ))";
 }
@@ -32,7 +30,8 @@ function runAnimationTwo() {
 }
 const timeTwo = 800;
 
-// bugThree
+// ----------- bugThree ---------------------
+export const bugThree = ref("");
 function updateBugThree1() {
   bugThree.value = "~-~";
 }
@@ -45,7 +44,8 @@ function runBugThree() {
 }
 const timeThree = 600;
 
-// bugFour
+// ----------- bugFour ---------------------
+export const bugFour = ref("");
 function updateBugFour1() {
   bugFour.value = ",...,...";
 }
@@ -82,7 +82,10 @@ function runBugFour() {
 }
 const timeFour = 1300;
 
+// --------------------------------------------------------------------------------
 // run all animations
+//  --------------------------------------------------------------------------------
+
 export function useAnimations() {
     function runAnimations() {
         setInterval(runAnimationOne, timeOne);

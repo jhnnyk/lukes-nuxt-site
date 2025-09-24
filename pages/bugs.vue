@@ -3,12 +3,7 @@
 import { useAnimations } from "@/composables/bugs.js";
 const { runAnimations } = useAnimations();
 
-// run all animations
-onMounted(() => {
-  runAnimations();
-});
-
-const bugs = ref([
+let bugs = [
   {
     id: 1,
     name: "Flapper",
@@ -44,7 +39,24 @@ const bugs = ref([
       "Another gift left at my doorstep. I find the formation of this lil' wriggler kind of rope-like, so I named it a rope.",
     species: bugFour,
   },
-]);
+];
+
+// shuffle function for list of bugs, take from Google ai, Gemini
+function ShuffleArray(array) {
+  // (Insert the Fisher-Yates implementation here)
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+bugs = ShuffleArray(bugs);
+
+// run all animations
+onMounted(() => {
+  runAnimations();
+});
 </script>
 
 <template>
