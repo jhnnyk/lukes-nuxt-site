@@ -1,8 +1,4 @@
 <script setup>
-// imports
-import { ref } from "vue";
-import { bugOne, bugTwo, bugThree, bugFour } from "@/composables/bugs.js";
-
 defineProps(["name", "date", "finder", "blurb", "species"]);
 </script>
 
