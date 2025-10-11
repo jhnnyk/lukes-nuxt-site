@@ -39,6 +39,24 @@ let bugs = [
       "Another gift left at my doorstep. I find the formation of this lil' wriggler kind of rope-like, so I named it a rope.",
     species: bugFour,
   },
+  {
+    id: 5,
+    name: "Punc Worm",
+    date: "11/oct/25",
+    finder: "(donation)",
+    blurb:
+      "Believed to be a near relative of the 'rope bug', this specimen features a consistently punctuated body.",
+    species: bugFive,
+  },
+  {
+    id: 6,
+    name: "Bubble Bug",
+    date: "11/oct/25",
+    finder: "(donation)",
+    blurb:
+      "Composed of consecutive kissing circular body segments, the Bubble Bug exhibits unique oscillating movements.",
+    species: bugSix,
+  },
 ];
 
 // shuffle function for list of bugs, take from Google ai, Gemini

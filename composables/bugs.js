@@ -82,6 +82,34 @@ function runBugFour() {
 }
 const timeFour = 1300;
 
+// ----------- bugFive ---------------------
+export const bugFive = ref("");
+function updateBugFive1() {
+  bugFive.value = ",.,.,.,.";
+};
+function updateBugFive2() {
+  bugFive.value = ".,.,.,.,";
+};
+function runBugFive() {
+  setTimeout(updateBugFive1, 0);
+  setTimeout(updateBugFive2, 300);
+}
+const timeFive = 600;
+
+// ----------- bugSix ---------------------
+export const bugSix = ref("");
+function updateBugSix1() {
+  bugSix.value = "°•°•°•°";
+};
+function updateBugSix2() {
+  bugSix.value = "•°•°•°•";
+};
+function runBugSix() {
+  setTimeout(updateBugSix1, 0);
+  setTimeout(updateBugSix2, 250);
+}
+const timeSix = 500;
+
 // --------------------------------------------------------------------------------
 // run all animations
 //  --------------------------------------------------------------------------------
@@ -92,6 +120,8 @@ export function useAnimations() {
         setInterval(runAnimationTwo, timeTwo);
         setInterval(runBugThree, timeThree);
         setInterval(runBugFour, timeFour);
+        setInterval(runBugFive, timeFive);
+        setInterval(runBugSix, timeSix);
     }
 
     return{
