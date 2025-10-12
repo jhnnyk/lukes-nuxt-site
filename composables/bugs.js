@@ -3,7 +3,7 @@
 //  --------------------------------------------------------------------------------
 
 // ----------- bugOne ---------------------
-export const bugOne = ref("");
+export const bugOne = ref("\\()/");
 function updateAnimationOne1() {
   bugOne.value = "\\()/";
 }
@@ -17,7 +17,7 @@ function runAnimationOne() {
 const timeOne = 750;
 
 // ----------- bugTwo ---------------------
-export const bugTwo = ref("");
+export const bugTwo = ref("(( ))");
 function updateAnimationTwo1() {
   bugTwo.value = "(( ))";
 }
@@ -31,7 +31,7 @@ function runAnimationTwo() {
 const timeTwo = 800;
 
 // ----------- bugThree ---------------------
-export const bugThree = ref("");
+export const bugThree = ref("~-~");
 function updateBugThree1() {
   bugThree.value = "~-~";
 }
@@ -45,7 +45,7 @@ function runBugThree() {
 const timeThree = 600;
 
 // ----------- bugFour ---------------------
-export const bugFour = ref("");
+export const bugFour = ref(",...,...");
 function updateBugFour1() {
   bugFour.value = ",...,...";
 }
@@ -83,7 +83,7 @@ function runBugFour() {
 const timeFour = 1300;
 
 // ----------- bugFive ---------------------
-export const bugFive = ref("");
+export const bugFive = ref(",.,.,.,.");
 function updateBugFive1() {
   bugFive.value = ",.,.,.,.";
 };
@@ -97,7 +97,7 @@ function runBugFive() {
 const timeFive = 600;
 
 // ----------- bugSix ---------------------
-export const bugSix = ref("");
+export const bugSix = ref("°•°•°•°");
 function updateBugSix1() {
   bugSix.value = "°•°•°•°";
 };
@@ -109,6 +109,44 @@ function runBugSix() {
   setTimeout(updateBugSix2, 250);
 }
 const timeSix = 500;
+
+// ----------- bugSeven ---------------------
+export const bugSeven = ref("  €€€  ");
+function updateBugSeven1() {
+  bugSeven.value = "  €€€  ";
+};
+function updateBugSeven2() {
+  bugSeven.value = "  €€=€";
+};
+function updateBugSeven3() {
+  bugSeven.value = "  €=€=€";
+};
+function updateBugSeven4() {
+  bugSeven.value = "  €=€€";
+};
+function updateBugSeven5() {
+  bugSeven.value = "  €€€";
+};
+function updateBugSeven6() {
+  bugSeven.value = " €=€€";
+};
+function updateBugSeven7() {
+  bugSeven.value = "€=€=€";
+};
+function updateBugSeven8() {
+  bugSeven.value = " €€=€";
+}
+function runBugSeven() {
+  setTimeout(updateBugSeven1, 0);
+  setTimeout(updateBugSeven2, 275);
+  setTimeout(updateBugSeven3, 550);
+  setTimeout(updateBugSeven4, 1100);
+  setTimeout(updateBugSeven5, 1375);
+  setTimeout(updateBugSeven6, 1650);
+  setTimeout(updateBugSeven7, 1925);
+  setTimeout(updateBugSeven8, 2200);
+};
+const timeSeven = 2475;
 
 // --------------------------------------------------------------------------------
 // run all animations
@@ -122,6 +160,7 @@ export function useAnimations() {
         setInterval(runBugFour, timeFour);
         setInterval(runBugFive, timeFive);
         setInterval(runBugSix, timeSix);
+        setInterval(runBugSeven, timeSeven);
     }
 
     return{

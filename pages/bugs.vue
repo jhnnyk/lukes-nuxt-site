@@ -57,6 +57,15 @@ let bugs = [
       "Composed of consecutive kissing circular body segments, the Bubble Bug exhibits unique oscillating movements.",
     species: bugSix,
   },
+  {
+    id: 7,
+    name: "Currency Critter",
+    date: "12/oct/25",
+    finder: "(donation)",
+    blurb:
+      "A rare caterpillar, the Currency Critter can be seen crawling its way along currency exchange websites.",
+    species: bugSeven,
+  },
 ];
 
 // shuffle function for list of bugs, take from Google ai, Gemini
