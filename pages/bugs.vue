@@ -66,6 +66,15 @@ let bugs = [
       "A rare caterpillar, the Currency Critter can be seen crawling its way along currency exchange websites.",
     species: bugSeven,
   },
+  {
+    id: 8,
+    name: "Bat",
+    date: "12/oct/15",
+    finder: "ASCII ONELINE",
+    cite: "https://ascii.co.uk/oneline/bat",
+    blurb: "A bat found on the web.",
+    species: bugEight,
+  },
 ];
 
 // shuffle function for list of bugs, take from Google ai, Gemini
@@ -92,15 +101,7 @@ onMounted(() => {
     <div>
       <h1>Luke's Hall of Bugs &nbsp; {{ bugOne }}</h1>
     </div>
-    <Bug
-      v-for="bug in bugs"
-      :key="bug.id"
-      :name="bug.name"
-      :date="bug.date"
-      :finder="bug.finder"
-      :blurb="bug.blurb"
-      :species="bug.species"
-    />
+    <Bug v-for="bug in bugs" :key="bug.id" v-bind="bug" />
   </div>
 </template>
 

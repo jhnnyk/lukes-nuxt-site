@@ -1,5 +1,5 @@
 <script setup>
-defineProps(["name", "date", "finder", "blurb", "species"]);
+defineProps(["name", "date", "finder", "cite", "blurb", "species"]);
 </script>
 
 <template>
@@ -15,7 +15,11 @@ defineProps(["name", "date", "finder", "blurb", "species"]);
           <p><span class="underline">Discovered:</span> {{ date }}</p>
         </div>
         <div>
-          <p><span class="underline">Found by:</span> {{ finder }}</p>
+          <p>
+            <span class="underline">Found by:</span>&nbsp;
+            <a v-if="cite" :href="cite">{{ finder }}</a
+            ><span v-else>{{ finder }}</span>
+          </p>
         </div>
       </div>
       <!--Blurb + Bug-->

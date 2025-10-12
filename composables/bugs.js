@@ -148,6 +148,21 @@ function runBugSeven() {
 };
 const timeSeven = 2475;
 
+// ----------- bugEight ---------------------
+export const bugEight = ref("^0^");
+function updateBugEight1() {
+  bugEight.value = "^0^";
+};
+function updateBugEight2() {
+  bugEight.value = "-0-";
+};
+function runBugEight() {
+  setTimeout(updateBugEight1, 0);
+  setTimeout(updateBugEight2, 375);
+};
+const timeEight = 750;
+
+
 // --------------------------------------------------------------------------------
 // run all animations
 //  --------------------------------------------------------------------------------
@@ -161,6 +176,7 @@ export function useAnimations() {
         setInterval(runBugFive, timeFive);
         setInterval(runBugSix, timeSix);
         setInterval(runBugSeven, timeSeven);
+        setInterval(runBugEight, timeEight);
     }
 
     return{
