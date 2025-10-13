@@ -2,6 +2,9 @@
 // bugs
 //  --------------------------------------------------------------------------------
 
+// set up bug list
+export let bugs = [];
+
 // ----------- bugOne ---------------------
 export const bugOne = ref("\\()/");
 function updateAnimationOne1() {
@@ -15,6 +18,17 @@ function runAnimationOne() {
   setTimeout(updateAnimationOne2, 500);
 }
 const timeOne = 750;
+bugs.push(
+  {
+    id: 1,
+    name: "Flapper",
+    date: "16/sep/25",
+    finder: "Luke",
+    blurb:
+      "This species is called the flapper, and is a very simple bug creature.",
+    species: bugOne,
+  }
+);
 
 // ----------- bugTwo ---------------------
 export const bugTwo = ref("(( ))");
@@ -29,6 +43,16 @@ function runAnimationTwo() {
   setTimeout(updateAnimationTwo2, 600);
 }
 const timeTwo = 800;
+bugs.push(
+  {
+    id: 2,
+    name: "Parenthepillar",
+    date: "16/sep/25",
+    finder: "Luke",
+    blurb: "This next guy is a pre cool one.",
+    species: bugTwo,
+  }
+);
 
 // ----------- bugThree ---------------------
 export const bugThree = ref("~-~");
@@ -43,6 +67,17 @@ function runBugThree() {
   setTimeout(updateBugThree2, 300);
 }
 const timeThree = 600;
+bugs.push(
+  {
+    id: 3,
+    name: "Tilda Worm",
+    date: "16/sep/25",
+    finder: "(donation)",
+    blurb:
+      "A curious sample that appeared at my doorstep. Seeing it's subtle elegance and complexity, I simply had to show you. (Note: formerly called the 'Title Worm', but I think 'Tilda' is a better name.)",
+    species: bugThree,
+  }
+);
 
 // ----------- bugFour ---------------------
 export const bugFour = ref(",...,...");
@@ -81,6 +116,17 @@ function runBugFour() {
   setTimeout(updateBugFour8, 1150);
 }
 const timeFour = 1300;
+bugs.push(
+  {
+    id: 4,
+    name: "Rope Bug",
+    date: "17/sep/25",
+    finder: "(donation)",
+    blurb:
+      "Another gift left at my doorstep. I find the formation of this lil' wriggler kind of rope-like, so I named it a rope.",
+    species: bugFour,
+  }
+);
 
 // ----------- bugFive ---------------------
 export const bugFive = ref(",.,.,.,.");
@@ -95,6 +141,17 @@ function runBugFive() {
   setTimeout(updateBugFive2, 300);
 }
 const timeFive = 600;
+bugs.push(
+  {
+    id: 5,
+    name: "Punc Worm",
+    date: "11/oct/25",
+    finder: "(donation)",
+    blurb:
+      "Believed to be a near relative of the 'rope bug', this specimen features a consistently punctuated body.",
+    species: bugFive,
+  }
+);
 
 // ----------- bugSix ---------------------
 export const bugSix = ref("°•°•°•°");
@@ -109,6 +166,17 @@ function runBugSix() {
   setTimeout(updateBugSix2, 250);
 }
 const timeSix = 500;
+bugs.push(
+  {
+    id: 6,
+    name: "Bubble Bug",
+    date: "11/oct/25",
+    finder: "(donation)",
+    blurb:
+      "Composed of consecutive kissing circular body segments, the Bubble Bug exhibits unique oscillating movements.",
+    species: bugSix,
+  }
+);
 
 // ----------- bugSeven ---------------------
 export const bugSeven = ref("  €€€  ");
@@ -147,6 +215,17 @@ function runBugSeven() {
   setTimeout(updateBugSeven8, 2200);
 };
 const timeSeven = 2475;
+bugs.push(
+  {
+    id: 7,
+    name: "Currency Critter",
+    date: "12/oct/25",
+    finder: "(donation)",
+    blurb:
+      "A rare caterpillar, the Currency Critter can be seen crawling its way along currency exchange websites.",
+    species: bugSeven,
+  }
+);
 
 // ----------- bugEight ---------------------
 export const bugEight = ref("^0^");
@@ -161,7 +240,49 @@ function runBugEight() {
   setTimeout(updateBugEight2, 375);
 };
 const timeEight = 750;
+bugs.push(
+  {
+    id: 8,
+    name: "Bat",
+    date: "12/oct/15",
+    finder: "ASCII.co.uk",
+    cite: "https://ascii.co.uk/oneline/bat",
+    blurb: "A bat found on the web.",
+    species: bugEight,
+  }
+);
 
+// ----------- bugNine ---------------------
+export const bugNine = ref(">/•\\•/c");
+function updateBugNine1() {
+  bugNine.value = ">/•\\•/c";
+};
+function updateBugNine2() {
+  bugNine.value = ">|•|•|c";
+};
+function updateBugNine3() {
+  bugNine.value = ">\\•/•\\c";
+};
+function updateBugNine4() {
+  bugNine.value = ">|•|•|c";
+}
+function runBugNine() {
+  setTimeout(updateBugNine1, 0);
+  setTimeout(updateBugNine2, 250);
+  setTimeout(updateBugNine3, 500);
+  setTimeout(updateBugNine4, 750)
+};
+const timeNine = 1000;
+bugs.push(
+  {
+    id: 9,
+    name: "Slash Stack",
+    date: "13/oct/25",
+    finder: "Aris Fryer",
+    blurb: "Named for its corrugated body shape, this specimen keeps accidentally executing commands on my Minecraft server. It's really annoying.",
+    species: bugNine,
+  }
+);
 
 // --------------------------------------------------------------------------------
 // run all animations
@@ -177,6 +298,7 @@ export function useAnimations() {
         setInterval(runBugSix, timeSix);
         setInterval(runBugSeven, timeSeven);
         setInterval(runBugEight, timeEight);
+        setInterval(runBugNine, timeNine);
     }
 
     return{

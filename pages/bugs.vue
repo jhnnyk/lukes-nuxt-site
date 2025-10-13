@@ -3,79 +3,7 @@
 import { useAnimations } from "@/composables/bugs.js";
 const { runAnimations } = useAnimations();
 
-let bugs = [
-  {
-    id: 1,
-    name: "Flapper",
-    date: "16/sep/25",
-    finder: "Luke",
-    blurb:
-      "This species is called the flapper, and is a very simple bug creature.",
-    species: bugOne,
-  },
-  {
-    id: 2,
-    name: "Parenthepillar",
-    date: "16/sep/25",
-    finder: "Luke",
-    blurb: "This next guy is a pre cool one.",
-    species: bugTwo,
-  },
-  {
-    id: 3,
-    name: "Tilda Worm",
-    date: "16/sep/25",
-    finder: "(donation)",
-    blurb:
-      "A curious sample that appeared at my doorstep. Seeing it's subtle elegance and complexity, I simply had to show you. (Note: formerly called the 'Title Worm', but I think 'Tilda' is a better name.)",
-    species: bugThree,
-  },
-  {
-    id: 4,
-    name: "Rope Bug",
-    date: "17/sep/25",
-    finder: "(donation)",
-    blurb:
-      "Another gift left at my doorstep. I find the formation of this lil' wriggler kind of rope-like, so I named it a rope.",
-    species: bugFour,
-  },
-  {
-    id: 5,
-    name: "Punc Worm",
-    date: "11/oct/25",
-    finder: "(donation)",
-    blurb:
-      "Believed to be a near relative of the 'rope bug', this specimen features a consistently punctuated body.",
-    species: bugFive,
-  },
-  {
-    id: 6,
-    name: "Bubble Bug",
-    date: "11/oct/25",
-    finder: "(donation)",
-    blurb:
-      "Composed of consecutive kissing circular body segments, the Bubble Bug exhibits unique oscillating movements.",
-    species: bugSix,
-  },
-  {
-    id: 7,
-    name: "Currency Critter",
-    date: "12/oct/25",
-    finder: "(donation)",
-    blurb:
-      "A rare caterpillar, the Currency Critter can be seen crawling its way along currency exchange websites.",
-    species: bugSeven,
-  },
-  {
-    id: 8,
-    name: "Bat",
-    date: "12/oct/15",
-    finder: "ASCII ONELINE",
-    cite: "https://ascii.co.uk/oneline/bat",
-    blurb: "A bat found on the web.",
-    species: bugEight,
-  },
-];
+let bugList = bugs;
 
 // shuffle function for list of bugs, take from Google ai, Gemini
 function ShuffleArray(array) {
@@ -87,7 +15,7 @@ function ShuffleArray(array) {
   return array;
 }
 
-bugs = ShuffleArray(bugs);
+bugList = ShuffleArray(bugList);
 
 // run all animations
 onMounted(() => {
@@ -101,7 +29,7 @@ onMounted(() => {
     <div>
       <h1>Luke's Hall of Bugs &nbsp; {{ bugOne }}</h1>
     </div>
-    <Bug v-for="bug in bugs" :key="bug.id" v-bind="bug" />
+    <Bug v-for="bug in bugList" :key="bug.id" v-bind="bug" />
   </div>
 </template>
 
