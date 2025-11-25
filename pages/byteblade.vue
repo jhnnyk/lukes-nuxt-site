@@ -16,6 +16,7 @@ const c_quit = [
   "clear",
   "reload",
   "reset",
+  "re",
 ];
 function f_quit() {
   location.reload();
@@ -31,7 +32,7 @@ function f_help() {
 }
 
 // player actions
-const c_move_forward = ["forward", "go", "move", "walk"];
+const c_move_forward = ["forward", "go", "move", "walk", "advance", "approach"];
 function f_move_forward() {
   content.value = "hi!!!";
 }
@@ -48,6 +49,8 @@ function submit() {
   // general functions
   if (c_quit.includes(message.value)) {
     f_quit();
+    message.value = "";
+    return;
   }
   if (c_help.includes(message.value)) {
     f_help();
