@@ -1,10 +1,33 @@
 <script setup>
+// ------------------------------------------------------------
+// Initial Variables
+// ------------------------------------------------------------
 var content = ref("A game about fighting.");
 var message = ref("");
 
 var started = false;
 
+// ------------------------------------------------------------
+// PLAYER DATA
+// ------------------------------------------------------------
 var player_location = [0, 0];
+
+// ------------------------------------------------------------
+// MAP DATA
+// ------------------------------------------------------------
+
+// function to make make data easier
+function MapLocation(entity) {
+  this.entity = entity;
+}
+
+const map_data = new Map([
+  [[0, 0], new MapLocation("door")],
+  [[0, 1], new MapLocation("grass")],
+]);
+// ------------------------------------------------------------
+// GENERAL COMMANDS
+// ------------------------------------------------------------
 
 // general commands
 const c_quit = [
@@ -25,21 +48,42 @@ function f_quit() {
 function f_unknown() {
   content.value = "Unknown command. Type 'HELP' for more info.";
 }
+// help command
 const c_help = ["help", "h", "helpme", "idk"];
 function f_help() {
-  content.value =
-    "This is a game. Type and press enter. Use QUIT to end or restart.";
+  content.value = "This is a game. Type commands to START. Use QUIT to reset.";
+}
+// start command
+const c_start = [
+  "start",
+  "begin",
+  "go",
+  "letsgo",
+  "letusgo",
+  "letsago",
+  "postprologue",
+  "forward",
+  "continue",
+  "progress",
+];
+function f_start() {
+  started = true;
+  content.value = "There is a door.";
 }
 
 // player actions
 const c_move_forward = ["forward", "go", "move", "walk", "advance", "approach"];
 function f_move_forward() {
-  content.value = "hi!!!";
+  content.value = "Being unlocked, the door opens easily.";
 }
 const c_fight = ["fight", "die", "kill"];
 function f_fight() {
-  content.value = "You approach the door. You sit before the door.";
+  content.value = "DOOR enters the battle!";
 }
+
+// ------------------------------------------------------------
+// PROMPTING
+// ------------------------------------------------------------
 
 // when the player presses enter
 function submit() {
@@ -60,8 +104,11 @@ function submit() {
 
   // check if first time player interacting
   if (!started) {
-    content.value = "There is a door before you.";
-    started = true;
+    if (c_start.includes(message.value)) {
+      f_start();
+    } else {
+      f_unknown();
+    }
   } else {
     // player actions
     switch (true) {
@@ -79,6 +126,10 @@ function submit() {
   }
   message.value = "";
 }
+
+// ------------------------------------------------------------
+// END OF 'SCRIPT' TAGS
+// ------------------------------------------------------------
 </script>
 
 <template>
