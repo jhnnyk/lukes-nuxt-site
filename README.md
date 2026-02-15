@@ -4,6 +4,8 @@ I decided to redo this website because some things were messier than I wanted. I
 
 -Luke Knotts, 15/February/2026.
 
+wjhat's goig on?
+
 # DEFAULT NUXT README.md CONTENT BELOW:
 
 # Nuxt 3 Minimal Starter
