@@ -60,7 +60,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <div class="everything">
     <p>
       Luke's PreCalc flash cards. Check out the other stuff at
       <a href="/">lukeknotts.com</a>: [Fake link]. See a mistake? Email me at
@@ -78,10 +78,10 @@ onMounted(() => {
   </div>
 </template>
 
-<style>
+<style scoped>
 /* Generic Styles */
 
-body {
+.everything {
   background-color: white;
 
   padding: 20px;

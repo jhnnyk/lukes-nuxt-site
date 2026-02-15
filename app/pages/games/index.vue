@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Header from "/components/Header.vue";
+
 const { data: posts } = await useAsyncData("blog", () =>
   queryCollection("games").all()
 );
@@ -6,6 +8,7 @@ const { data: posts } = await useAsyncData("blog", () =>
 
 <template>
   <div>
+    <Header />
     <h1>Games</h1>
     <p>
       Every project here I've worked on with the help of cool coders, musicians,
