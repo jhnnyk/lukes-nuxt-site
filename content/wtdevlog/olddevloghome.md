@@ -5,7 +5,7 @@ description: 'A directory page for the "Development Blog"'
 
 # Game Development Log (OLD)
 
-This is the OLD game development blog home page. I don't know how you got here. That shouldn't be possible... Anyhoo, I have made a new dev blog homepage with all the same information, and you can find it <a class="inline-link" href="/wtdevlog/">here</a>.
+This is the OLD game development blog home page. I have made a new dev blog homepage with all the same information, and you can find it <a class="inline-link" href="/wtdevlog/">here</a>.
 
 Old Text:
 
