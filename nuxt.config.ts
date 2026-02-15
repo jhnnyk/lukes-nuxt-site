@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     },
   ],
   content: {
-    documentDriven: true,
   },
   css: ['~/assets/css/main.css', '~/assets/css/new.css']
 })
